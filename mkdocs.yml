@@ -1,7 +1,7 @@
 site_name: Fast Downward
 nav:
   - Home: index.md
-  - Getting started: latest/quick-start/
+  - Getting started: latest/documentation/quick-start/
   - Documentation: latest/documentation/quick-start/
   - Releases: releases.md
   - Literature: literature.md
