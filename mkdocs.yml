@@ -1,0 +1,38 @@
+site_name: Fast Downward
+nav:
+  - Home: index.md
+  - Getting started: latest/quick-start/
+  - Documentation: latest/documentation/
+  - Releases: releases.md
+  - Literature: literature.md
+  - For Developers: for-developers/
+repo_url: https://github.com/aibasel/downward/
+edit_uri: https://github.com/aibasel/downward-homepage/edit/main/docs/ # TODO update to correct directory
+site_url: https://ai.dmi.unibas.ch/_downward-test/
+theme:
+  name: material
+  logo: img/driller.svg
+  palette:
+    primary: deep-orange
+  icon:
+#    admonition:
+#      <type>: <icon>
+    #  features:
+    #    - navigation.tabs
+markdown_extensions:
+  - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+plugins:
+  - mike:
+      version_selector: true
+  - literate-nav:
+      nav_file: SUMMARY.md
+#        #      implicit_index: true
