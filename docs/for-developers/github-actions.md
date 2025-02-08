@@ -4,16 +4,9 @@ GitHub Actions is the continuous integration tool of GitHub. Actions
 are setup using so-called workflows, where each workflow possibly
 consists of different jobs. Actions can be triggered by events on the
 repository such as pushes, pull request and others. Any file found in
-
-    REPOSITORY/.github/workflows
-
-which ends on
-
-    .yml
-
-automatically defines a workflow. If you want to enable or disable
-GitHub Actions, change your repository settings on GitHub via
-`Settings->Actions`.
+`REPOSITORY/.github/workflows` which ends on `.yml` automatically defines
+a workflow. If you want to enable or disable GitHub Actions, change your
+repository settings on GitHub via `Settings->Actions`.
 
 Currently, we have implemented some basic GitHub Actions. All of them
 are triggered by pushing commits to the main repository and by pushing
