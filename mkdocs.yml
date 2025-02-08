@@ -18,6 +18,8 @@ theme:
   icon:
 #    admonition:
 #      <type>: <icon>
+  features:
+    - content.action.edit
     #  features:
     #    - navigation.tabs
 markdown_extensions:
