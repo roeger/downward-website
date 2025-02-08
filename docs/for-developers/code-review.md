@@ -5,7 +5,7 @@ Downward fork on Github.
 
 -   Fork the official Github repository.
 -   In the fork, prepare your issue or feature branch (e.g. issue123)
-    according to [our Git workflow](../git).
+    according to [our Git workflow](git.md).
 -   In the fork, click "Pull requests" and click "New pull request",
     then select the `main` branch of **your repository** on the left
     and the `issue123` branch on the right.

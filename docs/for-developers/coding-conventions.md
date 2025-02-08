@@ -19,7 +19,7 @@ making things as right as possible on the first try.
 The following is not meant to be a complete description of our coding
 conventions. When in doubt, follow the example of the existing code.
 
-See also the information on how and where to put [whitespaces](../whitespace).
+See also the information on how and where to put [whitespaces](whitespace.md).
 
 ### Language support
 

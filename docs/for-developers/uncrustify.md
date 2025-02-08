@@ -9,8 +9,8 @@ our style rules automatically, at least for those rules which`uncrustify`
 can handle.
 
 Not all aspects of source layout are handled by `uncrustify`, so please still
-pay attention to our [whitespace](../whitespace) rules and other [coding
-conventions](../coding-conventions).
+pay attention to our [whitespace](whitespace.md) rules and other [coding
+conventions](coding-conventions.md).
 
 ## Installing uncrustify
 

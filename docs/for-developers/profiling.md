@@ -29,14 +29,14 @@ QCacheGrind installed.
 
 ## Profiling Cache Misses
 
-Here is an example of how to run the \`cachegrind\` tool of \`valgrind\`
+Here is an example of how to run the `cachegrind` tool of `valgrind`
 to profile the CPU cache behaviour of the search component.
 
 To set up, run the translator component:
 
     ./fast-downward.py --translate PROBLEM.PDDL
 
-To profile, run the search component manually under \`valgrind\`
+To profile, run the search component manually under `valgrind`
 (substitute the appropriate build and search options):
 
     valgrind --tool=cachegrind --cachegrind-out-file=cachegrind.out \
@@ -50,9 +50,8 @@ To browse the profiling results:
     # or this:
     qcachegrind cachegrind.out
 
-See section \"Installing [QCacheGrind](QCacheGrind "wikilink")\" below
-if you have neither [KCacheGrind](KCacheGrind "wikilink") nor
-[QCacheGrind](QCacheGrind "wikilink") installed.
+See section ["Installing QCacheGrind"](#installing-qcachegrind) below
+if you have neither KCacheGrind nor QCacheGrind installed.
 
 ## Profiling Memory Usage
 

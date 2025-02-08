@@ -43,8 +43,8 @@ repository and updates the documentation.
 On both Ubuntu versions, we compile and test with CPLEX and SOPLEX. On
 both Windows versions, we compile and test with CPLEX. Due to licensing,
 CPLEX cannot be tested automatically on a fork (see issues
-[issue970](http://issues.fast-downward.org/issue970 "wikilink") and
-[issue971](http://issues.fast-downward.org/issue971 "wikilink")). If you
+[issue970](http://issues.fast-downward.org/issue970) and
+[issue971](http://issues.fast-downward.org/issue971)). If you
 want to run a test for CPLEX, then you have to acquire a license (CPLEX
 provides a free academic license). The GitHub Actions have to download
 the installer (for CPLEX). Thus, you have to upload it to a server of
@@ -65,7 +65,7 @@ contact Silvan.
 
 ## Tested Versions
 
-[Requirements](../requirements) defines the policy for the version we want
+[Requirements](requirements.md) defines the policy for the version we want
 test, but keep in mind that we cannot be up to date with every version release.
 For the currently tested versions, see "Tested software versions" at the
 [repository](https://github.com/aibasel/downward/).

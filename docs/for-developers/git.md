@@ -17,7 +17,7 @@ tracker. Then the usual development process involves two roles,
 4.  Developer pushes the changes to the fork on GitHub.
 5.  Developer makes a pull request on !GitHub from &lt;branch&gt; to
     the main branch in the primary repository (see [page on code
-    review](../code-review)).
+    review](code-review.md)).
 6.  Developer adds a link to the pull request to the issue tracker.
 7.  Reviewer reviews the code and usually makes comments in the pull
     request. If reviewer is not satisfied, go back to step 3.

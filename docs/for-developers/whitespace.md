@@ -6,7 +6,7 @@ We'll extend this page on an as-needed basis.
 
 Some of the conventions discussed on this page are automatically taken
 care of by `uncrustify`
-(see [uncrustify](../uncrustify)), but not all of them. In particular,
+(see [uncrustify](uncrustify.md)), but not all of them. In particular,
 `uncrustify` will not break lines for you in most cases.
 
 This page discusses aspects that are not handled by `uncrustify`

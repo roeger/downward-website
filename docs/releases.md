@@ -1,9 +1,9 @@
 # Fast Downward Releases
 
-Fast Downward uses time-based version numbers of the form \`YY.MM\`. For
+Fast Downward uses time-based version numbers of the form `YY.MM`. For
 example, Fast Downward 19.06 was originally released in June 2019. We
 intend to follow a 6-monthly release cycle, but this is not set in
-stone. Bugfix releases are numbered as \`19.06.1\`, \`19.06.2\` and so
+stone. Bugfix releases are numbered as `19.06.1`, `19.06.2` and so
 on.
 
 Fast Downward is research software, and we do not provide extensive
@@ -21,8 +21,8 @@ are generally limited to the latest release series.
 -   [Fast Downward 22.06](/22.06)
 -   [Fast Downward 21.12](/21.12)
 -   [Fast Downward 20.06](/20.06)
--   [Fast Downward 19.12](/19.12)
--   [Fast Downward 19.06](/19.06)
+-   [Fast Downward 19.12](Releases/19.12.md)
+-   [Fast Downward 19.06](Releases/19.06.md)
 
 ## Historical Releases
 
