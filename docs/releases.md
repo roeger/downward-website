@@ -21,8 +21,8 @@ are generally limited to the latest release series.
 -   [Fast Downward 22.06](/22.06)
 -   [Fast Downward 21.12](/21.12)
 -   [Fast Downward 20.06](/20.06)
--   [Fast Downward 19.12](Releases/19.12.md)
--   [Fast Downward 19.06](Releases/19.06.md)
+-   [Fast Downward 19.12](releases/19.12.md)
+-   [Fast Downward 19.06](releases/19.06.md)
 
 ## Historical Releases
 
