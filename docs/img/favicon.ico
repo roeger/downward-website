@@ -39,7 +39,7 @@
   
 
 
-  <script type="application/json" id="client-env">{"locale":"en","featureFlags":["bypass_copilot_indexing_quota","copilot_immersive_file_preview","copilot_new_references_ui","copilot_attach_folder_reference","copilot_chat_repo_custom_instructions_preview","copilot_chat_retry_on_error","copilot_chat_persist_submitted_input","copilot_conversational_ux_history_refs","copilot_chat_shared_topic_indicator","copilot_chat_shared_repo_sso_banner","copilot_editor_upsells","copilot_dotcom_chat_reduce_telemetry","copilot_free_limited_user","copilot_implicit_context","copilot_no_floating_button","copilot_smell_icebreaker_ux","copilot_new_markdown_renderer","experimentation_azure_variant_endpoint","failbot_handle_non_errors","geojson_azure_maps","ghost_pilot_confidence_truncation_25","ghost_pilot_confidence_truncation_40","github_models_o3_mini_streaming","github_models_per_chunk_timeout","hovercard_accessibility","issues_react_remove_placeholders","issues_react_blur_item_picker_on_close","issues_react_include_bots_in_pickers","marketing_pages_search_explore_provider","remove_child_patch","report_hydro_web_vitals","sample_network_conn_type","swp_enterprise_contact_form","site_copilot_acc","site_copilot_vscode_link_update","site_proxima_australia_update","issues_react_create_milestone","issues_react_cache_fix_workaround","lifecycle_label_name_updates"]}</script>
+  <script type="application/json" id="client-env">{"locale":"en","featureFlags":["bypass_copilot_indexing_quota","copilot_immersive_file_preview","copilot_new_references_ui","copilot_attach_folder_reference","copilot_chat_repo_custom_instructions_preview","copilot_chat_retry_on_error","copilot_chat_persist_submitted_input","copilot_conversational_ux_history_refs","copilot_chat_shared_topic_indicator","copilot_chat_shared_repo_sso_banner","copilot_editor_upsells","copilot_dotcom_chat_reduce_telemetry","copilot_free_limited_user","copilot_implicit_context","copilot_no_floating_button","copilot_smell_icebreaker_ux","copilot_new_markdown_renderer","experimentation_azure_variant_endpoint","failbot_handle_non_errors","geojson_azure_maps","ghost_pilot_confidence_truncation_25","ghost_pilot_confidence_truncation_40","github_models_o3_mini_streaming","github_models_per_chunk_timeout","hovercard_accessibility","issues_react_remove_placeholders","issues_react_blur_item_picker_on_close","issues_react_include_bots_in_pickers","marketing_pages_search_explore_provider","remove_child_patch","sample_network_conn_type","swp_enterprise_contact_form","site_copilot_acc","site_copilot_vscode_link_update","site_proxima_australia_update","issues_react_create_milestone","issues_react_cache_fix_workaround","lifecycle_label_name_updates"]}</script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/wp-runtime-3a3cb1987228.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover_js-9da652f58479.js"></script>
 <script crossorigin="anonymous" defer="defer" type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_arianotify-polyfill_ariaNotify-polyfill_js-node_modules_github_mi-3abb8f-d7e6bc799724.js"></script>
@@ -113,7 +113,7 @@
   <meta name="current-catalog-service-hash" content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
 
 
-  <meta name="request-id" content="F480:304C4E:1F5F0F5:2991812:67A736D1" data-pjax-transient="true"/><meta name="html-safe-nonce" content="c7e1b63a1a01426a63e47faf0b5b99116a9625156313b78623af8f3943b235de" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiJGNDgwOjMwNEM0RToxRjVGMEY1OjI5OTE4MTI6NjdBNzM2RDEiLCJ2aXNpdG9yX2lkIjoiOTA3NTEzMDcwOTc5NjQwMjg5NyIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="b7886304f3bff83b9ae0de16caebb171922b7adc61338995ca9abd67f74c37ef" data-pjax-transient="true"/>
+  <meta name="request-id" content="93C0:D196F:202618F:2A8F8B1:67A73EAA" data-pjax-transient="true"/><meta name="html-safe-nonce" content="4ea201707441730c047e2759fd92dc92537708a71822c7015ee5290502c755da" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI5M0MwOkQxOTZGOjIwMjYxOEY6MkE4RjhCMTo2N0E3M0VBQSIsInZpc2l0b3JfaWQiOiI2MDIxNTYwNzAyMDA2MjI3NjIiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="21713d0d90ce4fe4eb55e0a6032fe2a3c14a038fde915cc2349bbcb27658fe71" data-pjax-transient="true"/>
 
 
     <meta name="hovercard-subject-tag" content="repository:928794848" data-turbo-transient>
@@ -831,7 +831,7 @@
                 
 
 
-<qbsearch-input class="search-input" data-scope="repo:roeger/downward-website" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="yQ9QHV4tAimHf6nhRZQagLtV0tdhQPPHbtgzbBGPYJsif5IyU5q5Op2EiOX9ZfeBGRNzniDCGWRS_l9ABFMnPA" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="roeger/downward-website" data-current-org="" data-current-owner="roeger" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
+<qbsearch-input class="search-input" data-scope="repo:roeger/downward-website" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="4fucE5B_F5zuR1iXOl1DfnuJkssocMlfAuzjl6QPgNeTho-Kyfg_w8cVisZPwfCMpOCa57QIiJS3XKhYAHuUTw" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="roeger/downward-website" data-current-org="" data-current-owner="roeger" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
   <div
     class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center mr-4 rounded"
     data-action="click:qbsearch-input#searchInputContainerClicked"
@@ -896,7 +896,7 @@
           ></div>
           <div class="QueryBuilder-InputWrapper">
             <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
-            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-61f58ff1-f34a-40ce-974d-2298c5c31b25" data-target="query-builder.input" data-action="
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-edfb677b-8017-4078-927f-86dfd4b6bf2f" data-target="query-builder.input" data-action="
           input:query-builder#inputChange
           blur:query-builder#inputBlur
           keydown:query-builder#inputKeydown
@@ -1133,7 +1133,7 @@
                   id="query-builder-test-results"
                 ></ul>
         </div>
-      <div class="FormControl-inlineValidation" id="validation-61f58ff1-f34a-40ce-974d-2298c5c31b25" hidden="hidden">
+      <div class="FormControl-inlineValidation" id="validation-edfb677b-8017-4078-927f-86dfd4b6bf2f" hidden="hidden">
         <span class="FormControl-inlineValidation--visual">
           <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
     <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
@@ -1174,7 +1174,7 @@
   
 </div>
       <scrollable-region data-labelled-by="feedback-dialog-title">
-        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="ucxA+Opnq1xPQ7daYCGml3WbIliQHT/+4EZQKet6yAvvQi0lcY9h+Aw0yWobyMigYzA01d43nHg3c2hwt+HHew==" />
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="6b9oY4ZgRsrlMpKfurdXUs0Hbc1wAOgTPbxwV7zUQCdkXWvcghBvzeJSVnCPZcQow1atm1cyTS7Md4RkmYTaIw==" />
           <p>We read every piece of feedback, and take your input very seriously.</p>
           <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
           <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
@@ -1212,7 +1212,7 @@
         <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
         <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="6O2OJ35ofv9i5CUMD/yF7XJz04hG0/ZkluRdF6Dt9N5ueMFxwaP9HY8Mmlpk7L9Dke1CIuOTp6dzZbYNzHD4NA==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="jLA6tGdrclvUDAQgsITpPAslcFZnncvxN/+MTfmPhzFuxW7RKynmpGVZgawlG6IGBam1Y77gxbxuQxM4NfQTRw==" />
           <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
           <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
@@ -1230,7 +1230,7 @@
                 placeholder="github-ruby"
                 required
                 maxlength="50">
-              <input type="hidden" data-csrf="true" value="/D2fRf6wD0vKzUM2PMvupC27fHloAGpqr6CTad3K6umTWiFmYvtoLImz0iLmfsRquJY2hw+x3W17LsiyywRH7Q==" />
+              <input type="hidden" data-csrf="true" value="ojbZq4CW8Y5RO33ZxDvDTEhByA7ZUC0tEYVrnniiGL83RGucuq31UOC6f34hdevAOlpAGG7JsjnKy3TeM2jFog==" />
             </auto-check>
           </div>
 
@@ -1305,10 +1305,10 @@
         <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
         <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
 
-    <button id="icon-button-10e43d09-ef4b-4a35-97c8-ed3b9a2189bd" aria-labelledby="tooltip-f062e495-1582-432f-a84e-b6c2653945fb" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <button id="icon-button-969c67de-3c72-478a-8af8-8f6ac90440d1" aria-labelledby="tooltip-c3581402-b921-4a38-8a6b-71dcd4b0d8f5" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
-</button><tool-tip id="tooltip-f062e495-1582-432f-a84e-b6c2653945fb" for="icon-button-10e43d09-ef4b-4a35-97c8-ed3b9a2189bd" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+</button><tool-tip id="tooltip-c3581402-b921-4a38-8a6b-71dcd4b0d8f5" for="icon-button-969c67de-3c72-478a-8af8-8f6ac90440d1" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
 
 
   
@@ -1409,7 +1409,7 @@
             <a href="/login?return_to=%2Froeger%2Fdownward-website" rel="nofollow" id="repository-details-watch-button" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/roeger/downward-website/blob/main/docs/img/favicon.ico&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="df361133264df63eee7515be589b072188beffb92167ca2fe71c33362061b71c" aria-label="You must be signed in to change notification settings" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
     <path d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"></path>
 </svg>Notifications
-</a>    <tool-tip id="tooltip-8fa087d4-25e9-4855-87ee-705415bf429f" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
+</a>    <tool-tip id="tooltip-59ab82b1-e956-4a2b-9a7b-16196d3196e9" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
 
   </li>
 
@@ -1529,22 +1529,22 @@
 </ul>
     <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <action-menu data-select-variant="none" data-view-component="true">
   <focus-group direction="vertical" mnemonics retain>
-    <button id="action-menu-7cd6d17b-f1fb-4e7b-925a-c8205fe6885d-button" popovertarget="action-menu-7cd6d17b-f1fb-4e7b-925a-c8205fe6885d-overlay" aria-controls="action-menu-7cd6d17b-f1fb-4e7b-925a-c8205fe6885d-list" aria-haspopup="true" aria-labelledby="tooltip-bf062242-3b63-4096-aabc-ef0a78b6824e" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
+    <button id="action-menu-78f67c2b-4121-4db7-89d7-9cc3787104e2-button" popovertarget="action-menu-78f67c2b-4121-4db7-89d7-9cc3787104e2-overlay" aria-controls="action-menu-78f67c2b-4121-4db7-89d7-9cc3787104e2-list" aria-haspopup="true" aria-labelledby="tooltip-6993ec5d-70a5-4985-b3b6-4a3721187d86" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
     <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
 </svg>
-</button><tool-tip id="tooltip-bf062242-3b63-4096-aabc-ef0a78b6824e" for="action-menu-7cd6d17b-f1fb-4e7b-925a-c8205fe6885d-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
+</button><tool-tip id="tooltip-6993ec5d-70a5-4985-b3b6-4a3721187d86" for="action-menu-78f67c2b-4121-4db7-89d7-9cc3787104e2-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
 
 
-<anchored-position data-target="action-menu.overlay" id="action-menu-7cd6d17b-f1fb-4e7b-925a-c8205fe6885d-overlay" anchor="action-menu-7cd6d17b-f1fb-4e7b-925a-c8205fe6885d-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
+<anchored-position data-target="action-menu.overlay" id="action-menu-78f67c2b-4121-4db7-89d7-9cc3787104e2-overlay" anchor="action-menu-78f67c2b-4121-4db7-89d7-9cc3787104e2-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
   <div data-view-component="true" class="Overlay Overlay--size-auto">
     
       <div data-view-component="true" class="Overlay-body Overlay-body--paddingNone">          <action-list>
   <div data-view-component="true">
-    <ul aria-labelledby="action-menu-7cd6d17b-f1fb-4e7b-925a-c8205fe6885d-button" id="action-menu-7cd6d17b-f1fb-4e7b-925a-c8205fe6885d-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+    <ul aria-labelledby="action-menu-78f67c2b-4121-4db7-89d7-9cc3787104e2-button" id="action-menu-78f67c2b-4121-4db7-89d7-9cc3787104e2-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
         <li hidden="hidden" data-menu-item="i0code-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-92dc4933-85b5-45b6-891a-e89cf8e08b47" href="/roeger/downward-website" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-bcce7d9c-8023-4db3-abe0-9e646b331105" href="/roeger/downward-website" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
@@ -1560,7 +1560,7 @@
         <li hidden="hidden" data-menu-item="i1issues-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-93760abf-0bce-4974-be46-1fba928efd72" href="/roeger/downward-website/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-5392ad08-4365-4709-8b39-2478360c0428" href="/roeger/downward-website/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
@@ -1576,7 +1576,7 @@
         <li hidden="hidden" data-menu-item="i2pull-requests-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-3e912523-aab2-4223-a743-9726d3ce84c9" href="/roeger/downward-website/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-ba0f010a-2dd1-4167-8673-0f30f0c84db5" href="/roeger/downward-website/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request">
     <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
@@ -1592,7 +1592,7 @@
         <li hidden="hidden" data-menu-item="i3actions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-335d58bb-abe4-4919-91b5-afa195253e5a" href="/roeger/downward-website/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-09c5ef76-254e-47f3-a9ef-1ba25383b1e2" href="/roeger/downward-website/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
@@ -1608,7 +1608,7 @@
         <li hidden="hidden" data-menu-item="i4projects-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-d176b809-5b2f-43f7-8fad-bf729c852833" href="/roeger/downward-website/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-8bd11afd-2607-4984-a4bc-152af053bc70" href="/roeger/downward-website/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table">
     <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
@@ -1624,7 +1624,7 @@
         <li hidden="hidden" data-menu-item="i5security-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-161ef7fa-9c2f-4ab3-b045-ba6caa7ba1e7" href="/roeger/downward-website/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-734d54f3-631f-4d74-919a-f85a9ff0dc2c" href="/roeger/downward-website/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield">
     <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
@@ -1640,7 +1640,7 @@
         <li hidden="hidden" data-menu-item="i6insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-2c437ef7-a46d-4308-a007-9961ea4254e0" href="/roeger/downward-website/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-23e1435d-2388-4908-90fe-27b91a2749e0" href="/roeger/downward-website/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph">
     <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
@@ -1697,7 +1697,7 @@
   data-data-router-enabled="false"
 >
   
-  <script type="application/json" data-target="react-app.embeddedData">{"payload":{"allShortcutsEnabled":false,"fileTree":{"docs/img":{"items":[{"name":"driller.svg","path":"docs/img/driller.svg","contentType":"file"},{"name":"favicon.ico","path":"docs/img/favicon.ico","contentType":"file"}],"totalCount":2},"docs":{"items":[{"name":"for-developers","path":"docs/for-developers","contentType":"directory"},{"name":"img","path":"docs/img","contentType":"directory"},{"name":"index.md","path":"docs/index.md","contentType":"file"},{"name":"literature.md","path":"docs/literature.md","contentType":"file"},{"name":"releases.md","path":"docs/releases.md","contentType":"file"}],"totalCount":5},"":{"items":[{"name":"docs","path":"docs","contentType":"directory"},{"name":"mkdocs.yml","path":"mkdocs.yml","contentType":"file"}],"totalCount":2}},"fileTreeProcessingTime":9.62768,"foldersToFetch":[],"repo":{"id":928794848,"defaultBranch":"main","name":"downward-website","ownerLogin":"roeger","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2025-02-07T08:55:21.000Z","ownerAvatar":"https://avatars.githubusercontent.com/u/10080115?v=4","public":true,"private":false,"isOrgOwned":false},"codeLineWrapEnabled":false,"symbolsExpanded":false,"treeExpanded":true,"refInfo":{"name":"main","listCacheKey":"v0:1738929426.0","canEdit":false,"refType":"branch","currentOid":"9411dfdde589fe3e2109a882136fe1fbb944ba2c"},"path":"docs/img/favicon.ico","currentUser":null,"blob":{"rawLines":null,"stylingDirectives":null,"colorizedLines":null,"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":false,"configFilePath":null,"networkDependabotPath":"/roeger/downward-website/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":null},"displayName":"favicon.ico","displayUrl":"https://github.com/roeger/downward-website/blob/main/docs/img/favicon.ico?raw=true","headerInfo":{"blobSize":"21.9 KB","deleteTooltip":"You must be signed in to make or propose changes","editTooltip":"You must be signed in to make or propose changes","ghDesktopPath":"https://desktop.github.com","isGitLfs":false,"onBranch":true,"shortPath":"7b9d644","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Froeger%2Fdownward-website%2Fblob%2Fmain%2Fdocs%2Fimg%2Ffavicon.ico","isCSV":false,"isRichtext":false,"toc":null,"lineInfo":{"truncatedLoc":null,"truncatedSloc":null},"mode":"file"},"image":false,"isCodeownersFile":null,"isPlain":false,"isValidLegacyIssueTemplate":false,"issueTemplate":null,"discussionTemplate":null,"language":null,"languageID":null,"large":false,"planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/roeger/downward-website/blob/main/docs/img/favicon.ico","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","releasePath":"/roeger/downward-website/releases/new?marketplace=true","showPublishActionBanner":false},"rawBlobUrl":"https://github.com/roeger/downward-website/raw/refs/heads/main/docs/img/favicon.ico","renderImageOrRaw":true,"richText":null,"renderedFileInfo":null,"shortPath":null,"symbolsEnabled":true,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","actionsOnboardingTip":null},"truncated":false,"viewable":false,"workflowRedirectUrl":null,"symbols":null},"copilotInfo":null,"copilotAccessAllowed":false,"modelsAccessAllowed":false,"csrf_tokens":{"/roeger/downward-website/branches":{"post":"Ek9Z6-e-nOqKWFVUUPseTbmCwq4sQ5LbmiboQrFlLSPrO4Vx5bY0D4e24ZxUq20oDAcowKIpd_BA7AHIk612BA"},"/repos/preferences":{"post":"FITVsYTFBenOXUUl_-Rfxj2dK6k5ltnpdWKaYCfUw51lVSSEpPoIQ9CN6LovfOnpsviF13NbUjdc-bIiLTAIHA"}}},"title":"downward-website/docs/img/favicon.ico at main · roeger/downward-website","appPayload":{"helpUrl":"https://docs.github.com","findFileWorkerPath":"/assets-cdn/worker/find-file-worker-2e45fb5767a8.js","findInFileWorkerPath":"/assets-cdn/worker/find-in-file-worker-0e487f66e7a0.js","githubDevUrl":null,"enabled_features":{"code_nav_ui_events":false,"overview_shared_code_dropdown_button":false,"react_blob_overlay":false,"copilot_conversational_ux_embedding_update":false,"copilot_smell_icebreaker_ux":true,"accessible_code_button":true}}}</script>
+  <script type="application/json" data-target="react-app.embeddedData">{"payload":{"allShortcutsEnabled":false,"fileTree":{"docs/img":{"items":[{"name":"driller.svg","path":"docs/img/driller.svg","contentType":"file"},{"name":"favicon.ico","path":"docs/img/favicon.ico","contentType":"file"}],"totalCount":2},"docs":{"items":[{"name":"for-developers","path":"docs/for-developers","contentType":"directory"},{"name":"img","path":"docs/img","contentType":"directory"},{"name":"index.md","path":"docs/index.md","contentType":"file"},{"name":"literature.md","path":"docs/literature.md","contentType":"file"},{"name":"releases.md","path":"docs/releases.md","contentType":"file"}],"totalCount":5},"":{"items":[{"name":"docs","path":"docs","contentType":"directory"},{"name":"mkdocs.yml","path":"mkdocs.yml","contentType":"file"}],"totalCount":2}},"fileTreeProcessingTime":5.749955,"foldersToFetch":[],"repo":{"id":928794848,"defaultBranch":"main","name":"downward-website","ownerLogin":"roeger","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2025-02-07T08:55:21.000Z","ownerAvatar":"https://avatars.githubusercontent.com/u/10080115?v=4","public":true,"private":false,"isOrgOwned":false},"codeLineWrapEnabled":false,"symbolsExpanded":false,"treeExpanded":true,"refInfo":{"name":"main","listCacheKey":"v0:1738929426.0","canEdit":false,"refType":"branch","currentOid":"9411dfdde589fe3e2109a882136fe1fbb944ba2c"},"path":"docs/img/favicon.ico","currentUser":null,"blob":{"rawLines":null,"stylingDirectives":null,"colorizedLines":null,"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":false,"configFilePath":null,"networkDependabotPath":"/roeger/downward-website/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":null},"displayName":"favicon.ico","displayUrl":"https://github.com/roeger/downward-website/blob/main/docs/img/favicon.ico?raw=true","headerInfo":{"blobSize":"21.9 KB","deleteTooltip":"You must be signed in to make or propose changes","editTooltip":"You must be signed in to make or propose changes","ghDesktopPath":"https://desktop.github.com","isGitLfs":false,"onBranch":true,"shortPath":"7b9d644","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Froeger%2Fdownward-website%2Fblob%2Fmain%2Fdocs%2Fimg%2Ffavicon.ico","isCSV":false,"isRichtext":false,"toc":null,"lineInfo":{"truncatedLoc":null,"truncatedSloc":null},"mode":"file"},"image":false,"isCodeownersFile":null,"isPlain":false,"isValidLegacyIssueTemplate":false,"issueTemplate":null,"discussionTemplate":null,"language":null,"languageID":null,"large":false,"planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/roeger/downward-website/blob/main/docs/img/favicon.ico","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","releasePath":"/roeger/downward-website/releases/new?marketplace=true","showPublishActionBanner":false},"rawBlobUrl":"https://github.com/roeger/downward-website/raw/refs/heads/main/docs/img/favicon.ico","renderImageOrRaw":true,"richText":null,"renderedFileInfo":null,"shortPath":null,"symbolsEnabled":true,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","actionsOnboardingTip":null},"truncated":false,"viewable":false,"workflowRedirectUrl":null,"symbols":null},"copilotInfo":null,"copilotAccessAllowed":false,"modelsAccessAllowed":false,"csrf_tokens":{"/roeger/downward-website/branches":{"post":"24giAm_w4o3YZezQy6B8K56YwqWYpLuX_VZCmQfAYlMSKIR2TMdruo91idXaZ0cylKEtvxizzCwfuOukxLaTzQ"},"/repos/preferences":{"post":"krvjUM4z5qWiKqTQFrX0xXTDVSwLVWZFuJ_PE3RclQze1usNnetGjzP__LDkF4l26aAzXdE98ZFi7pokDzvBPQ"}}},"title":"downward-website/docs/img/favicon.ico at main · roeger/downward-website","appPayload":{"helpUrl":"https://docs.github.com","findFileWorkerPath":"/assets-cdn/worker/find-file-worker-2e45fb5767a8.js","findInFileWorkerPath":"/assets-cdn/worker/find-in-file-worker-0e487f66e7a0.js","githubDevUrl":null,"enabled_features":{"code_nav_ui_events":false,"overview_shared_code_dropdown_button":false,"react_blob_overlay":false,"copilot_conversational_ux_embedding_update":false,"copilot_smell_icebreaker_ux":true,"accessible_code_button":true}}}</script>
   <div data-target="react-app.reactRoot"><style data-styled="true" data-styled-version="5.3.11">.hOfjFo{padding:0;}/*!sc*/
 .oDGAe{max-width:100%;margin-left:auto;margin-right:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}/*!sc*/
 .kowOcT{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;max-width:100%;}/*!sc*/
