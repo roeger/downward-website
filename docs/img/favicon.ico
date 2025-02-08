@@ -113,7 +113,7 @@
   <meta name="current-catalog-service-hash" content="f3abb0cc802f3d7b95fc8762b94bdcb13bf39634c40c357301c4aa1d67a256fb">
 
 
-  <meta name="request-id" content="2868:13D675:13B7DDC3:14461ABC:67A72E7E" data-pjax-transient="true"/><meta name="html-safe-nonce" content="7e718196beda92c586da36f930ea0bb8fe63fc48c5f7aecc95567395282f255f" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIyODY4OjEzRDY3NToxM0I3RERDMzoxNDQ2MUFCQzo2N0E3MkU3RSIsInZpc2l0b3JfaWQiOiI2NTY3Mzk5MTQ2NDcxNzYzNTgyIiwicmVnaW9uX2VkZ2UiOiJzZWEiLCJyZWdpb25fcmVuZGVyIjoic2VhIn0=" data-pjax-transient="true"/><meta name="visitor-hmac" content="8912a0adfc5d17249c00607c2bd8c1ed77e375c9d1c7c69e460df6d482ea8370" data-pjax-transient="true"/>
+  <meta name="request-id" content="1028:376E09:25B4065:31E7B77:67A730E5" data-pjax-transient="true"/><meta name="html-safe-nonce" content="9c0ef0c9588725b493c57de9ce910dc86e7130592b7c822eee77a60422c6af28" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiIxMDI4OjM3NkUwOToyNUI0MDY1OjMxRTdCNzc6NjdBNzMwRTUiLCJ2aXNpdG9yX2lkIjoiNTI0OTc5ODc3MzE0NjA3MTI2OSIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true"/><meta name="visitor-hmac" content="9cd4069420f2d1a2284cc40dc5ab0545d406ba6bbfade523f9704cf43c6166cc" data-pjax-transient="true"/>
 
 
     <meta name="hovercard-subject-tag" content="repository:928794848" data-turbo-transient>
@@ -831,7 +831,7 @@
                 
 
 
-<qbsearch-input class="search-input" data-scope="repo:roeger/downward-website" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="ONARzr2IhAHzbBJCxEqf_z3i-bw_rk6dWYDp-h4h10RHplbFwabvtFbFxRWB30O_Wyg64LwutGCrX6WvTaZr0g" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="roeger/downward-website" data-current-org="" data-current-owner="roeger" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
+<qbsearch-input class="search-input" data-scope="repo:roeger/downward-website" data-custom-scopes-path="/search/custom_scopes" data-delete-custom-scopes-csrf="mSdNU6UztmDhehaq9eKEomqcst4ZJm-3S93cmCbRO9fEw6rn870cMf9I6U40iZ2EBwelLIeGKjYDUmhS3uO2iQ" data-max-custom-scopes="10" data-header-redesign-enabled="false" data-initial-value="" data-blackbird-suggestions-path="/search/suggestions" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations" data-current-repository="roeger/downward-website" data-current-org="" data-current-owner="roeger" data-logged-in="false" data-copilot-chat-enabled="false" data-nl-search-enabled="false" data-retain-scroll-position="true">
   <div
     class="search-input-container search-with-dialog position-relative d-flex flex-row flex-items-center mr-4 rounded"
     data-action="click:qbsearch-input#searchInputContainerClicked"
@@ -896,7 +896,7 @@
           ></div>
           <div class="QueryBuilder-InputWrapper">
             <div aria-hidden="true" class="QueryBuilder-Sizer" data-target="query-builder.sizer"></div>
-            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-77976078-797d-4ff2-ad2c-8c3bc7a609c4" data-target="query-builder.input" data-action="
+            <input id="query-builder-test" name="query-builder-test" value="" autocomplete="off" type="text" role="combobox" spellcheck="false" aria-expanded="false" aria-describedby="validation-f8456a0f-bc32-4e7e-94d8-283ffe6b1caf" data-target="query-builder.input" data-action="
           input:query-builder#inputChange
           blur:query-builder#inputBlur
           keydown:query-builder#inputKeydown
@@ -1133,7 +1133,7 @@
                   id="query-builder-test-results"
                 ></ul>
         </div>
-      <div class="FormControl-inlineValidation" id="validation-77976078-797d-4ff2-ad2c-8c3bc7a609c4" hidden="hidden">
+      <div class="FormControl-inlineValidation" id="validation-f8456a0f-bc32-4e7e-94d8-283ffe6b1caf" hidden="hidden">
         <span class="FormControl-inlineValidation--visual">
           <svg aria-hidden="true" height="12" viewBox="0 0 12 12" version="1.1" width="12" data-view-component="true" class="octicon octicon-alert-fill">
     <path d="M4.855.708c.5-.896 1.79-.896 2.29 0l4.675 8.351a1.312 1.312 0 0 1-1.146 1.954H1.33A1.313 1.313 0 0 1 .183 9.058ZM7 7V3H5v4Zm-1 3a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"></path>
@@ -1174,7 +1174,7 @@
   
 </div>
       <scrollable-region data-labelled-by="feedback-dialog-title">
-        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="hj8dpalMKortQWOAltNQKhQlhuG6nPRXZB1k0aNJKBkBsKHWBvNyWGFncYD4eMxddqeavRfObG7mLVJxdJ5GFQ==" />
+        <div data-view-component="true" class="Overlay-body">        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="code-search-feedback-form" data-turbo="false" action="/search/feedback" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="q3LyxKaQv/Q+m2qb47gxJV1YFwho68rycorWBS3ErVKmIjPDuOM3qynN+ZrbhR/vjC1+K6iuyxArKE9BrRjHag==" />
           <p>We read every piece of feedback, and take your input very seriously.</p>
           <textarea name="feedback" class="form-control width-full mb-2" style="height: 120px" id="feedback"></textarea>
           <input name="include_email" id="include_email" aria-label="Include my email address so I can be contacted" class="form-control mr-2" type="checkbox">
@@ -1212,7 +1212,7 @@
         <div data-view-component="true" class="Overlay-body">        <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
         <div hidden class="create-custom-scope-form" data-target="custom-scopes.createCustomScopeForm">
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="sFnvVun49WKy8OcTYicZ5nV2yDBzfSimMphMWn9oYfK7qOV97kD00j4+pC/TzPOLQLVi+L/oLPbJ5ERacJmYoQ==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form id="custom-scopes-dialog-form" data-turbo="false" action="/search/custom_scopes" accept-charset="UTF-8" method="post"><input type="hidden" data-csrf="true" name="authenticity_token" value="KjL+pLnEW9exwwQZDhRbE7TxrFhad5+3y5hhOHy2QZIZc28DWxs6t/GfJVM1bf2Mil4JdjQaNk4u26A7G8UyQQ==" />
           <div data-target="custom-scopes.customScopesModalDialogFlash"></div>
 
           <input type="hidden" id="custom_scope_id" name="custom_scope_id" data-target="custom-scopes.customScopesIdField">
@@ -1230,7 +1230,7 @@
                 placeholder="github-ruby"
                 required
                 maxlength="50">
-              <input type="hidden" data-csrf="true" value="1M+vO6/rfxSmKpdF1q9b7wJjBLOwAt7MNMOe49WsTYL1Omhu3MT7cUHONSOSfZjLHQJyQBCVtXzUwIMbPAd42g==" />
+              <input type="hidden" data-csrf="true" value="g38H2L8u1Uyx0PqtzvTFI2w8qX5fALLyDRpmvrWYV7KYPAJSYJ6F/z7LkXZ5jsZTIPiv46h63uRrfYv4LxBGBw==" />
             </auto-check>
           </div>
 
@@ -1305,10 +1305,10 @@
         <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
         <span class="js-stale-session-flash-switched" hidden>You switched accounts on another tab or window. <a class="Link--inTextBlock" href="">Reload</a> to refresh your session.</span>
 
-    <button id="icon-button-ca764d24-1cbf-45cd-be9b-bfc428a21bf9" aria-labelledby="tooltip-5cb6cd3f-2644-4b2a-9645-d7943af62607" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
+    <button id="icon-button-050b618d-205c-49c6-b014-0dbf02dba7f0" aria-labelledby="tooltip-5a9c7230-facc-4d53-84ed-66d9f666c955" type="button" data-view-component="true" class="Button Button--iconOnly Button--invisible Button--medium flash-close js-flash-close">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-x Button-visual">
     <path d="M3.72 3.72a.75.75 0 0 1 1.06 0L8 6.94l3.22-3.22a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l3.22 3.22a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-3.22 3.22a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042L6.94 8 3.72 4.78a.75.75 0 0 1 0-1.06Z"></path>
 </svg>
-</button><tool-tip id="tooltip-5cb6cd3f-2644-4b2a-9645-d7943af62607" for="icon-button-ca764d24-1cbf-45cd-be9b-bfc428a21bf9" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
+</button><tool-tip id="tooltip-5a9c7230-facc-4d53-84ed-66d9f666c955" for="icon-button-050b618d-205c-49c6-b014-0dbf02dba7f0" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Dismiss alert</tool-tip>
 
 
   
@@ -1409,7 +1409,7 @@
             <a href="/login?return_to=%2Froeger%2Fdownward-website" rel="nofollow" id="repository-details-watch-button" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/roeger/downward-website/blob/main/docs/img/favicon.ico&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="df361133264df63eee7515be589b072188beffb92167ca2fe71c33362061b71c" aria-label="You must be signed in to change notification settings" data-view-component="true" class="btn-sm btn">    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-bell mr-2">
     <path d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z"></path>
 </svg>Notifications
-</a>    <tool-tip id="tooltip-a54126b9-aa15-4910-b5fc-cb074e4096ab" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
+</a>    <tool-tip id="tooltip-1bb17c58-5b1f-458b-a36d-68527ea6a902" for="repository-details-watch-button" popover="manual" data-direction="s" data-type="description" data-view-component="true" class="sr-only position-absolute">You must be signed in to change notification settings</tool-tip>
 
   </li>
 
@@ -1529,22 +1529,22 @@
 </ul>
     <div style="visibility:hidden;" data-view-component="true" class="UnderlineNav-actions js-responsive-underlinenav-overflow position-absolute pr-3 pr-md-4 pr-lg-5 right-0">      <action-menu data-select-variant="none" data-view-component="true">
   <focus-group direction="vertical" mnemonics retain>
-    <button id="action-menu-6144b750-3d6a-4220-bab5-31f196f18e05-button" popovertarget="action-menu-6144b750-3d6a-4220-bab5-31f196f18e05-overlay" aria-controls="action-menu-6144b750-3d6a-4220-bab5-31f196f18e05-list" aria-haspopup="true" aria-labelledby="tooltip-1148c0c9-a9c7-4d2e-a192-be2476b4a15f" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
+    <button id="action-menu-492f5b4a-83a5-4804-81a0-7f89e4ffc9dc-button" popovertarget="action-menu-492f5b4a-83a5-4804-81a0-7f89e4ffc9dc-overlay" aria-controls="action-menu-492f5b4a-83a5-4804-81a0-7f89e4ffc9dc-list" aria-haspopup="true" aria-labelledby="tooltip-1d47d6dc-99d1-4e1d-82bb-c43232e023c8" type="button" data-view-component="true" class="Button Button--iconOnly Button--secondary Button--medium UnderlineNav-item">  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-kebab-horizontal Button-visual">
     <path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path>
 </svg>
-</button><tool-tip id="tooltip-1148c0c9-a9c7-4d2e-a192-be2476b4a15f" for="action-menu-6144b750-3d6a-4220-bab5-31f196f18e05-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
+</button><tool-tip id="tooltip-1d47d6dc-99d1-4e1d-82bb-c43232e023c8" for="action-menu-492f5b4a-83a5-4804-81a0-7f89e4ffc9dc-button" popover="manual" data-direction="s" data-type="label" data-view-component="true" class="sr-only position-absolute">Additional navigation options</tool-tip>
 
 
-<anchored-position data-target="action-menu.overlay" id="action-menu-6144b750-3d6a-4220-bab5-31f196f18e05-overlay" anchor="action-menu-6144b750-3d6a-4220-bab5-31f196f18e05-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
+<anchored-position data-target="action-menu.overlay" id="action-menu-492f5b4a-83a5-4804-81a0-7f89e4ffc9dc-overlay" anchor="action-menu-492f5b4a-83a5-4804-81a0-7f89e4ffc9dc-button" align="start" side="outside-bottom" anchor-offset="normal" popover="auto" data-view-component="true">
   <div data-view-component="true" class="Overlay Overlay--size-auto">
     
       <div data-view-component="true" class="Overlay-body Overlay-body--paddingNone">          <action-list>
   <div data-view-component="true">
-    <ul aria-labelledby="action-menu-6144b750-3d6a-4220-bab5-31f196f18e05-button" id="action-menu-6144b750-3d6a-4220-bab5-31f196f18e05-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
+    <ul aria-labelledby="action-menu-492f5b4a-83a5-4804-81a0-7f89e4ffc9dc-button" id="action-menu-492f5b4a-83a5-4804-81a0-7f89e4ffc9dc-list" role="menu" data-view-component="true" class="ActionListWrap--inset ActionListWrap">
         <li hidden="hidden" data-menu-item="i0code-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-8e726065-2de3-4a1c-8ec1-3e1ef396901b" href="/roeger/downward-website" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-76e545bf-4ebf-4374-b190-43ecb4e7994b" href="/roeger/downward-website" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-code">
     <path d="m11.28 3.22 4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L13.94 8l-3.72-3.72a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215Zm-6.56 0a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042L2.06 8l3.72 3.72a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L.47 8.53a.75.75 0 0 1 0-1.06Z"></path>
@@ -1560,7 +1560,7 @@
         <li hidden="hidden" data-menu-item="i1issues-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-4b3cd8cc-ee71-4876-8429-efb80db0f6f6" href="/roeger/downward-website/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-20c84830-8565-4b2d-8294-25c73aaa0103" href="/roeger/downward-website/issues" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-issue-opened">
     <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Z"></path>
@@ -1576,7 +1576,7 @@
         <li hidden="hidden" data-menu-item="i2pull-requests-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-9c3a725e-b246-4359-af76-43cc281179cc" href="/roeger/downward-website/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-7e562991-6be7-4d11-b959-7d864480d024" href="/roeger/downward-website/pulls" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-git-pull-request">
     <path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path>
@@ -1592,7 +1592,7 @@
         <li hidden="hidden" data-menu-item="i3actions-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-794f7ecc-aa1c-474f-af68-e4bb2557bb27" href="/roeger/downward-website/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-30123788-0da4-416b-9e37-b6f7a6582c91" href="/roeger/downward-website/actions" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play">
     <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path>
@@ -1608,7 +1608,7 @@
         <li hidden="hidden" data-menu-item="i4projects-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-600f699b-e94a-472f-b458-99ce7156fe16" href="/roeger/downward-website/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-6f2f2d0b-cf46-48cc-9b9c-f35f469c18e0" href="/roeger/downward-website/projects" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-table">
     <path d="M0 1.75C0 .784.784 0 1.75 0h12.5C15.216 0 16 .784 16 1.75v12.5A1.75 1.75 0 0 1 14.25 16H1.75A1.75 1.75 0 0 1 0 14.25ZM6.5 6.5v8h7.75a.25.25 0 0 0 .25-.25V6.5Zm8-1.5V1.75a.25.25 0 0 0-.25-.25H6.5V5Zm-13 1.5v7.75c0 .138.112.25.25.25H5v-8ZM5 5V1.5H1.75a.25.25 0 0 0-.25.25V5Z"></path>
@@ -1624,7 +1624,7 @@
         <li hidden="hidden" data-menu-item="i5security-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-586f66f8-1196-4134-96d6-bab2e9f1e7fa" href="/roeger/downward-website/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-cbc15d57-e5a0-4049-a1c2-6994bd840d5c" href="/roeger/downward-website/security" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-shield">
     <path d="M7.467.133a1.748 1.748 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM8.75 4.75v3a.75.75 0 0 1-1.5 0v-3a.75.75 0 0 1 1.5 0ZM9 10.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path>
@@ -1640,7 +1640,7 @@
         <li hidden="hidden" data-menu-item="i6insights-tab" data-targets="action-list.items" role="none" data-view-component="true" class="ActionListItem">
     
     
-    <a tabindex="-1" id="item-cac991a5-726b-4f26-81c3-a8e1c41475cb" href="/roeger/downward-website/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
+    <a tabindex="-1" id="item-5230776f-f3a3-4def-a88c-0ef48eb9c914" href="/roeger/downward-website/pulse" role="menuitem" data-view-component="true" class="ActionListContent ActionListContent--visual16">
         <span class="ActionListItem-visual ActionListItem-visual--leading">
           <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-graph">
     <path d="M1.5 1.75V13.5h13.75a.75.75 0 0 1 0 1.5H.75a.75.75 0 0 1-.75-.75V1.75a.75.75 0 0 1 1.5 0Zm14.28 2.53-5.25 5.25a.75.75 0 0 1-1.06 0L7 7.06 4.28 9.78a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042l3.25-3.25a.75.75 0 0 1 1.06 0L10 7.94l4.72-4.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"></path>
@@ -1697,7 +1697,7 @@
   data-data-router-enabled="false"
 >
   
-  <script type="application/json" data-target="react-app.embeddedData">{"payload":{"allShortcutsEnabled":false,"fileTree":{"docs/img":{"items":[{"name":"driller.svg","path":"docs/img/driller.svg","contentType":"file"},{"name":"favicon.ico","path":"docs/img/favicon.ico","contentType":"file"}],"totalCount":2},"docs":{"items":[{"name":"for-developers","path":"docs/for-developers","contentType":"directory"},{"name":"img","path":"docs/img","contentType":"directory"},{"name":"index.md","path":"docs/index.md","contentType":"file"},{"name":"literature.md","path":"docs/literature.md","contentType":"file"},{"name":"releases.md","path":"docs/releases.md","contentType":"file"}],"totalCount":5},"":{"items":[{"name":"docs","path":"docs","contentType":"directory"},{"name":"mkdocs.yml","path":"mkdocs.yml","contentType":"file"}],"totalCount":2}},"fileTreeProcessingTime":10.090499,"foldersToFetch":[],"repo":{"id":928794848,"defaultBranch":"main","name":"downward-website","ownerLogin":"roeger","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2025-02-07T08:55:21.000Z","ownerAvatar":"https://avatars.githubusercontent.com/u/10080115?v=4","public":true,"private":false,"isOrgOwned":false},"codeLineWrapEnabled":false,"symbolsExpanded":false,"treeExpanded":true,"refInfo":{"name":"main","listCacheKey":"v0:1738929426.0","canEdit":false,"refType":"branch","currentOid":"9411dfdde589fe3e2109a882136fe1fbb944ba2c"},"path":"docs/img/favicon.ico","currentUser":null,"blob":{"rawLines":null,"stylingDirectives":null,"colorizedLines":null,"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":false,"configFilePath":null,"networkDependabotPath":"/roeger/downward-website/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":null},"displayName":"favicon.ico","displayUrl":"https://github.com/roeger/downward-website/blob/main/docs/img/favicon.ico?raw=true","headerInfo":{"blobSize":"21.9 KB","deleteTooltip":"You must be signed in to make or propose changes","editTooltip":"You must be signed in to make or propose changes","ghDesktopPath":"https://desktop.github.com","isGitLfs":false,"onBranch":true,"shortPath":"7b9d644","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Froeger%2Fdownward-website%2Fblob%2Fmain%2Fdocs%2Fimg%2Ffavicon.ico","isCSV":false,"isRichtext":false,"toc":null,"lineInfo":{"truncatedLoc":null,"truncatedSloc":null},"mode":"file"},"image":false,"isCodeownersFile":null,"isPlain":false,"isValidLegacyIssueTemplate":false,"issueTemplate":null,"discussionTemplate":null,"language":null,"languageID":null,"large":false,"planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/roeger/downward-website/blob/main/docs/img/favicon.ico","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","releasePath":"/roeger/downward-website/releases/new?marketplace=true","showPublishActionBanner":false},"rawBlobUrl":"https://github.com/roeger/downward-website/raw/refs/heads/main/docs/img/favicon.ico","renderImageOrRaw":true,"richText":null,"renderedFileInfo":null,"shortPath":null,"symbolsEnabled":true,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","actionsOnboardingTip":null},"truncated":false,"viewable":false,"workflowRedirectUrl":null,"symbols":null},"copilotInfo":null,"copilotAccessAllowed":false,"modelsAccessAllowed":false,"csrf_tokens":{"/roeger/downward-website/branches":{"post":"qIVUD7zlC_vzAHmLzvH9j_Rtyyp23nniU1MZzA-fiO1J_6xdkE5wBo7zBaV3DGSocIKqjbqN_7-iRAGElsulKw"},"/repos/preferences":{"post":"8Ekmk-JUTRAYL5zUkIt2L2vHjpwHRZ5rwoCcuGy4tWzX4CzL8oxrbBiIPN6MRQKBLav3fzuL-10Aqa4qOLg76w"}}},"title":"downward-website/docs/img/favicon.ico at main · roeger/downward-website","appPayload":{"helpUrl":"https://docs.github.com","findFileWorkerPath":"/assets-cdn/worker/find-file-worker-2e45fb5767a8.js","findInFileWorkerPath":"/assets-cdn/worker/find-in-file-worker-0e487f66e7a0.js","githubDevUrl":null,"enabled_features":{"code_nav_ui_events":false,"overview_shared_code_dropdown_button":false,"react_blob_overlay":false,"copilot_conversational_ux_embedding_update":false,"copilot_smell_icebreaker_ux":true,"accessible_code_button":true}}}</script>
+  <script type="application/json" data-target="react-app.embeddedData">{"payload":{"allShortcutsEnabled":false,"fileTree":{"docs/img":{"items":[{"name":"driller.svg","path":"docs/img/driller.svg","contentType":"file"},{"name":"favicon.ico","path":"docs/img/favicon.ico","contentType":"file"}],"totalCount":2},"docs":{"items":[{"name":"for-developers","path":"docs/for-developers","contentType":"directory"},{"name":"img","path":"docs/img","contentType":"directory"},{"name":"index.md","path":"docs/index.md","contentType":"file"},{"name":"literature.md","path":"docs/literature.md","contentType":"file"},{"name":"releases.md","path":"docs/releases.md","contentType":"file"}],"totalCount":5},"":{"items":[{"name":"docs","path":"docs","contentType":"directory"},{"name":"mkdocs.yml","path":"mkdocs.yml","contentType":"file"}],"totalCount":2}},"fileTreeProcessingTime":9.285193000000001,"foldersToFetch":[],"repo":{"id":928794848,"defaultBranch":"main","name":"downward-website","ownerLogin":"roeger","currentUserCanPush":false,"isFork":false,"isEmpty":false,"createdAt":"2025-02-07T08:55:21.000Z","ownerAvatar":"https://avatars.githubusercontent.com/u/10080115?v=4","public":true,"private":false,"isOrgOwned":false},"codeLineWrapEnabled":false,"symbolsExpanded":false,"treeExpanded":true,"refInfo":{"name":"main","listCacheKey":"v0:1738929426.0","canEdit":false,"refType":"branch","currentOid":"9411dfdde589fe3e2109a882136fe1fbb944ba2c"},"path":"docs/img/favicon.ico","currentUser":null,"blob":{"rawLines":null,"stylingDirectives":null,"colorizedLines":null,"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":false,"configFilePath":null,"networkDependabotPath":"/roeger/downward-website/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":null},"displayName":"favicon.ico","displayUrl":"https://github.com/roeger/downward-website/blob/main/docs/img/favicon.ico?raw=true","headerInfo":{"blobSize":"21.9 KB","deleteTooltip":"You must be signed in to make or propose changes","editTooltip":"You must be signed in to make or propose changes","ghDesktopPath":"https://desktop.github.com","isGitLfs":false,"onBranch":true,"shortPath":"7b9d644","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2Froeger%2Fdownward-website%2Fblob%2Fmain%2Fdocs%2Fimg%2Ffavicon.ico","isCSV":false,"isRichtext":false,"toc":null,"lineInfo":{"truncatedLoc":null,"truncatedSloc":null},"mode":"file"},"image":false,"isCodeownersFile":null,"isPlain":false,"isValidLegacyIssueTemplate":false,"issueTemplate":null,"discussionTemplate":null,"language":null,"languageID":null,"large":false,"planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/roeger/downward-website/blob/main/docs/img/favicon.ico","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","releasePath":"/roeger/downward-website/releases/new?marketplace=true","showPublishActionBanner":false},"rawBlobUrl":"https://github.com/roeger/downward-website/raw/refs/heads/main/docs/img/favicon.ico","renderImageOrRaw":true,"richText":null,"renderedFileInfo":null,"shortPath":null,"symbolsEnabled":true,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","actionsOnboardingTip":null},"truncated":false,"viewable":false,"workflowRedirectUrl":null,"symbols":null},"copilotInfo":null,"copilotAccessAllowed":false,"modelsAccessAllowed":false,"csrf_tokens":{"/roeger/downward-website/branches":{"post":"MVzfPlntXTkcRC575qTSUDMJaAU3BsB4vG6B1fIYTtH0_jUV80hVIPdDu5Z9a3D3DXp8J6fb9ixTzmxlQ6KnCg"},"/repos/preferences":{"post":"myINdFxZRjr48VprV2N1BLhiJEVsB7ORCjduwBeg-rWwXKLUGum6P4JgdgLGt5VnFIavgLQYRnqIU9hPLll8xQ"}}},"title":"downward-website/docs/img/favicon.ico at main · roeger/downward-website","appPayload":{"helpUrl":"https://docs.github.com","findFileWorkerPath":"/assets-cdn/worker/find-file-worker-2e45fb5767a8.js","findInFileWorkerPath":"/assets-cdn/worker/find-in-file-worker-0e487f66e7a0.js","githubDevUrl":null,"enabled_features":{"code_nav_ui_events":false,"overview_shared_code_dropdown_button":false,"react_blob_overlay":false,"copilot_conversational_ux_embedding_update":false,"copilot_smell_icebreaker_ux":true,"accessible_code_button":true}}}</script>
   <div data-target="react-app.reactRoot"><style data-styled="true" data-styled-version="5.3.11">.hOfjFo{padding:0;}/*!sc*/
 .oDGAe{max-width:100%;margin-left:auto;margin-right:auto;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;}/*!sc*/
 .kowOcT{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex:1 1 100%;-ms-flex:1 1 100%;flex:1 1 100%;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;max-width:100%;}/*!sc*/
