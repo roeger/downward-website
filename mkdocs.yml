@@ -7,7 +7,7 @@ nav:
   - Literature: literature.md
   - For Developers: for-developers/
 repo_url: https://github.com/aibasel/downward/
-edit_uri: https://github.com/roeger/downward-website/edit/main/docs/ # TODO update to correct directory
+edit_uri_template: https://github.com/roeger/downward-website/blob/main/docs/{path} # TODO update to correct directory
 site_url: https://ai.dmi.unibas.ch/_downward-test/
 theme:
   name: material
