@@ -3,7 +3,8 @@
 ### State related classes
 
 Some implementation detail on the state related classes is described in
-<attachment:state-classes.pdf> (source file: <attachment:state-classes.odg>).
+<attachment:state-classes.pdf> (source file:
+<attachment:state-classes.odg>).
 
 ### Per State Information
 
@@ -12,16 +13,17 @@ already discussed how to handle some special cases but not all of them are
 implemented yet (we will do so once we need them).
 
 **Temporary states/samples:** Use a temporary state registry to create
-the samples. `PerStateInformation<Entry>` is already able to handle states
-from different registries. Once the temporary registry is destroyed, all
-information stored for its states
-is also destroyed.
+the samples.
+
+`PerStateInformation<Entry>` is already able to handle states from different
+registries. Once the temporary registry is destroyed, all information stored
+for its states is also destroyed.
 
 **Create states from scratch:** If states should be created that do not
 correspond to the initial state or the successor of an existing states,
 the state registry has to be extended. Add a method that allows to add a
 buffer (i.e. a `state_var_t *`) and handle it just like states in the
-`get_successor_state()` method.
+    `get_successor_state()` method.
 
 **Store information for only a few states**: If information is needed
 for only some of the created states, consider using two registries: one

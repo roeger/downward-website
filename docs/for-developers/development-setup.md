@@ -1,4 +1,4 @@
-# Recommended development environment
+# Development environment
 
 The requirements for compiling Fast Downward are listed in [the build
 instructions](https://github.com/aibasel/downward/blob/main/BUILD.md "wikilink").

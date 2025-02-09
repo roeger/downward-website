@@ -19,7 +19,7 @@ making things as right as possible on the first try.
 The following is not meant to be a complete description of our coding
 conventions. When in doubt, follow the example of the existing code.
 
-See also the information on how and where to put [whitespaces](whitespace.md).
+See also the information on how and where to put [whitespaces](cpp-whitespace.md).
 
 ### Language support
 
@@ -31,7 +31,7 @@ and AppleClang 13.
 
 We generally follow the recommendations in the book [C++ Coding
 Standards: 101 Rules, Guidelines, and Best
-Practices](http://www.gotw.ca/publications/c++cs.htm "wikilink") by Herb
+Practices](http://www.gotw.ca/publications/c++cs.htm) by Herb
 Sutter and Andrei Alexandrescu. In the tracker or elsewhere, a mark of
 the form **[SA ***x***]** is a reference to a rule in that book. For
 example, **[SA 9]** refers to Sutter and Alexandrescu's rule 9:

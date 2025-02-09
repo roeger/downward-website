@@ -3,7 +3,7 @@ nav:
   - Home: index.md
   - Getting started: documentation/latest/quick-start/
   - Documentation: documentation/latest/
-  - Releases: releases.md
+  - Releases: releases/
   - Literature: literature.md
   - For Developers: for-developers/
 repo_url: https://github.com/aibasel/downward/
@@ -20,6 +20,7 @@ theme:
 #      <type>: <icon>
   features:
     - content.action.edit
+    - navigation.indexes
     #  features:
     #    - navigation.tabs
 markdown_extensions:

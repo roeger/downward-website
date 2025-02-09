@@ -28,7 +28,7 @@
 -   \--(http://issues.fast-downward.org/issue509: task interface next
     steps (discuss long-term plan, Florian))\--
 -   \--(http://issues.fast-downward.org/issue667: Integrate
-    [SCCs](SCCs "wikilink") based merge strategy (code review,
+    SCCs based merge strategy (code review,
     Silvan))\--
 -   \--(http://issues.fast-downward.org/issue668: Integrate dynamic
     MIASM merge strategy (code review, Silvan))\--

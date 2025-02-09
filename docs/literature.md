@@ -1,4 +1,4 @@
-# Literature on Fast Downward as a whole
+## Literature on Fast Downward as a whole
 
 The following two papers describe the original version of Fast Downward
 (~2003-2004) as a whole. They are still relevant to the current
@@ -13,7 +13,7 @@ component. The AIJ 2009 paper describes the translator component.
 -   Malte Helmert. [Concise finite-domain representations for PDDL planning tasks](https://www.sciencedirect.com/science/article/pii/S0004370208001926).
     *Artificial Intelligence* 173, pp. 503-535. 2009.
 
-# Literature on specific Fast Downward components
+## Literature on specific Fast Downward components
 
 For specific components of Fast Downward, for example a particular
 heuristic or search algorithms, we aim to give the most relevant
