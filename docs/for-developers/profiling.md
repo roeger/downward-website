@@ -24,7 +24,7 @@ To browse the profiling results:
     # or this:
     qcachegrind callgrind.out
 
-See section ["Installing QCacheGrind"](#installing-qcachegrind) below if you have neither KCacheGrind nor
+See section ["Installing QCacheGrind"](#installing_qcachegrind) below if you have neither KCacheGrind nor
 QCacheGrind installed.
 
 ## Profiling Cache Misses
@@ -50,7 +50,7 @@ To browse the profiling results:
     # or this:
     qcachegrind cachegrind.out
 
-See section ["Installing QCacheGrind"](#installing-qcachegrind) below
+See section ["Installing QCacheGrind"](#installing_qcachegrind) below
 if you have neither KCacheGrind nor QCacheGrind installed.
 
 ## Profiling Memory Usage

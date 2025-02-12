@@ -6,7 +6,7 @@ New source code files can be added to the planner by adding them to
 `src/search/CMakeLists.txt`.
 
 We group our files into CMake libraries that can be enabled/disabled in
-a [custom build](#custom-builds). Libraries can have dependencies on other
+a [custom build](#custom_builds). Libraries can have dependencies on other
 libraries. This dependency graph is used to enable all libraries needed for
 a manual build. For example, if a manual build only enables the library
 `potentials`, the library `lp_solver` will be compiled as well because the
@@ -118,7 +118,7 @@ for it in `build_configs.py`.
 Fast Downward automatically includes an LP Solver in the build if it is needed
 and the solver is detected on the system. If you want to explicitly build
 without LP solvers that are installed on your system, use `./build.py
-release_no_lp`, or a [custom build](#custom-builds) with the option
+release_no_lp`, or a [custom build](#custom_builds) with the option
 `-DUSE_LP=NO`.
 
 If you don't want to permanently modify your environment, you can also
