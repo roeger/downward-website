@@ -89,7 +89,7 @@ that a string like `hm(...)` should be parsed with this feature.
 
 In the constructor, we then see multiple lines defining options and
 adding documentation that you can find reflected [in the
-Evaluator documentation](documentation/latest/search/Evaluator/#hm-heuristic).
+Evaluator documentation](documentation/search/Evaluator/#hm-heuristic).
 
 ### Plugins
 
@@ -137,7 +137,7 @@ documentation of their category. Subcategories mainly consist of a key
 (used to sort and access them) and a human-readable title. Every feature
 not associated with a subcategory will be shown outside of the
 subcategories. (See [evaluator
-documentation](documentation/latest/search/Evaluator/) for an example).
+documentation](documentation/search/Evaluator/) for an example).
 
 ``` c++
 static class PDBGroupPlugin : public plugins::SubcategoryPlugin {
