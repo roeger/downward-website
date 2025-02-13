@@ -231,7 +231,7 @@ tokens:
 In our example, splitting the string results in the following list of
 tokens.
 
-{{attachment:parsing_2.png||width=800}}
+![](../../img/parsing_2.png)
 
 Next we create the AST from that list of tokens. This interprets the
 options syntactically, without considering the registered features yet.
@@ -246,7 +246,7 @@ some keyword arguments. Think of a function call in Python.
 
 The resulting AST for our case is
 
-{{attachment:parsing_3.png||width=1000}}
+![](../../img/parsing_3.png)
 
 The top-level node is a let-node (a variable definition) that defines
 variable `x` with a function call to a function `hm` without any positional or
@@ -279,7 +279,7 @@ a list of integers. While decorating, we add the necessary `ConvertNodes`.
 
 The decorated AST is
 
-{{attachment:parsing_4.png||width=1200}}
+![](../../img/parsing_4.png)
 
 Finally, the objects in the decorated AST can be constructed. We do so
 in a recursive way, always returning constructed values wrapped in the `Any`
@@ -302,7 +302,7 @@ In our example, we thus construct two objects. First the h^m heuristic,
 then the search. Each of them gets an options object with the necessary
 parameters.
 
-{{attachment:parsing_5.png||width=1200}}
+![](../../img/parsing_5.png)
 
 The feature classes `HMHeuristicFeature` and `AStarSearchFeature` determine how
 the final objects are constructed. We derived `HMHeuristicFeature` from
