@@ -66,12 +66,12 @@ jobs:
 
       - name: Sync the website
         run: |
-          cd gh-pages
+          cd downward-website
           rm -rf *
           cd ..
           unzip -u site.zip -d gh-pages/
-          ls -la gh-pages
-          cd gh-pages
+          ls -la downward-website
+          cd downward-website
           git restore CNAME
           git add -A
           git status
