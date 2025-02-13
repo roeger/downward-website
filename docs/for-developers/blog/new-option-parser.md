@@ -213,7 +213,7 @@ which we ignore here).
 
 The option string, we want to parse is
 
-{{attachment:parsing_1.png||width=800}}
+![](../../img/parsing_1.png)
 
 The first step is to split it into tokens. We distinguish the following
 tokens:
