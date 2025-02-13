@@ -101,6 +101,7 @@ def post_process_result(outdir):
     # move the img folder from the HEAD version on level higher and
     # replace the copies of the img folder in all versions with
     # a symbolic link to that one.
+    # Proceed analgously for "files" and "assets" folders.
     releases = set()
     with open(REPO_ROOT_DIR/'releases.json') as f:
         releases = set(r["release"] for r in json.load(f))
@@ -109,13 +110,17 @@ def post_process_result(outdir):
     tmp_dir.mkdir()
     subprocess.check_call(["unzip", "site.zip", "-d", tmp_dir])
     (outdir/"site.zip").unlink()
-    shutil.move(tmp_dir/"HEAD"/"img", tmp_dir/"img")
-    os.chdir(tmp_dir)
-    for child in (tmp_dir).iterdir():
-        if child.is_dir() and child.name in releases:
-            if (child/"img").exists():
-                shutil.rmtree(child/"img")
-            os.symlink("../img", child/"img")
+
+    for folder in ("img", "files", "assets"):
+        if (tmp_dir/"HEAD"/folder).exists():
+            shutil.move(tmp_dir/"HEAD"/folder, tmp_dir/folder)
+            os.chdir(tmp_dir)
+            for child in (tmp_dir).iterdir():
+                if child.is_dir() and child.name in releases:
+                    if (child/folder).exists():
+                        shutil.rmtree(child/folder)
+                    os.symlink(f"../{folder}", child/folder)
+
     os.chdir(tmp_dir)
     subprocess.check_call("zip -yr ../site.zip .", shell=True)
     shutil.rmtree(tmp_dir)
@@ -127,13 +132,13 @@ if __name__ == '__main__':
     tmp_markdown_dir = SCRIPT_DIR / TMP_MARKDOWN
     outdir = SCRIPT_DIR / WEBSITE
     try:
-        outdir.mkdir()
+        tmp_dir.mkdir()
         tmp_markdown_dir.mkdir()
     except FileExistsError as e:
         sys.exit(e)
     copy_main_content(tmp_markdown_dir)
     init_git_repo(tmp_markdown_dir)
     create_revision_websites(tmp_markdown_dir)
-    collect_result(tmp_markdown_dir, outdir)
+    collect_result(tmp_markdown_dir, tmp_dir)
     post_process_result(outdir)
 #    shutil.rmtree(tmp_markdown_dir)
