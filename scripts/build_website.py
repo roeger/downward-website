@@ -4,7 +4,6 @@ import json
 import logging
 import os
 from pathlib import Path
-import re
 import shutil
 import subprocess
 import sys
@@ -13,9 +12,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 REPO_ROOT_DIR = SCRIPT_DIR.parents[0]
 TMP_MARKDOWN = "tmp_markdown"
 WEBSITE = "site"
-
-def checkout_repo():
-    pass
+GIT_USER = "build_website"
 
 def copy_main_content(tmp_markdown):
     try:
@@ -30,12 +27,9 @@ def copy_main_content(tmp_markdown):
 def init_git_repo(tmp_markdown):
     os.chdir(tmp_markdown)
     cmd = ["git", "init"]
-    subprocess.run(cmd)
-
-def init_mike(tmp_markdown):
-    os.chdir(tmp_markdown)
-    cmd = ["mike", "set-default", "latest"]
-    subprocess.run(cmd)
+    subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
+    cmd = ["git", "config", "user.name", GIT_USER]
+    subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
 
 def create_revision_website(tmp_markdown, revision, alias=None):
     logging.info(f"building version {revision}...")
@@ -48,36 +42,44 @@ def create_revision_website(tmp_markdown, revision, alias=None):
     try:
         os.chdir(REPO_ROOT_DIR)
     except FileNotFoundError:
-        print(f"Directory: {REPO_ROOT_DIR} does not exist")
+        logging.critical(f"Directory: {REPO_ROOT_DIR} does not exist")
+        return
     except PermissionError:
-        print(f"You do not have permissions to change to {REPO_ROOT_DIR}")
+        logging.critical(f"You do not have permissions to change to {REPO_ROOT_DIR}")
+        return
 
-    doc_dir =  tmp_markdown/revision/"docs"/"documenation"
+    doc_dir =  tmp_markdown/revision/"docs"
     archive_cmd = ["git", "archive", "--format=tar",
-                   f"--output={tmp_markdown}/archive.tar", branch_name, "docs/"]
+                   f"--output={tmp_markdown}/archive.tar", branch_name, "docs"]
     untar_cmd = ["tar", "xf", "archive.tar", "-C", doc_dir]
-    subprocess.run(archive_cmd)
+    try:
+        subprocess.check_call(archive_cmd)
+    except subprocess.CalledProcessError:
+        print(f"Could not obtain branch for {revision}. Skipping it...")
+        return
     doc_dir.mkdir(parents=True)
     os.chdir(tmp_markdown)
-    subprocess.run(untar_cmd)
+    subprocess.check_call(untar_cmd)
     os.chdir(tmp_markdown/revision/"docs")
+    (doc_dir/"docs").rename(doc_dir/"documentation")
     for child in (tmp_markdown/"main-docs").iterdir():
         os.symlink(child, child.name)
     os.chdir(tmp_markdown/revision)
     os.symlink(tmp_markdown/"mkdocs.yml", "mkdocs.yml")
     os.chdir(tmp_markdown)
     cmd = ["git", "add", f"{revision}/"]
-    subprocess.run(cmd)
+    subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
     cmd = ["git", "commit", "-m", f"adding revision {revision}"]
-    subprocess.run(cmd)
+    subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
     os.chdir(tmp_markdown/revision)
-    cmd = ["mike", "set-default", "latest"]
-    subprocess.run(cmd)
-    if alias:
-        cmd = ["mike", "deploy", "--update-alias", revision, alias]
+    if alias is not None:
+        cmd = ["mike", "deploy", revision, alias]
     else:
         cmd = ["mike", "deploy", revision]
-    subprocess.run(cmd)
+    subprocess.check_call(cmd)
+    if alias is not None:
+        cmd = ["mike", "set-default", "latest"]
+        subprocess.run(cmd)
 
 def create_revision_websites(markdown_dir):
     with open(REPO_ROOT_DIR/'releases.json') as f:
@@ -89,9 +91,10 @@ def collect_result(tmp_markdown, outdir):
     os.chdir(tmp_markdown)
     archive_cmd = ["git", "archive", "--format=zip",
                    f"--output={outdir}/site.zip", "gh-pages"]
-    subprocess.run(archive_cmd)
+    subprocess.check_call(archive_cmd)
 
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
     logging.info("building website...")
     tmp_markdown_dir = SCRIPT_DIR / TMP_MARKDOWN
     outdir = SCRIPT_DIR / WEBSITE
@@ -102,9 +105,6 @@ if __name__ == '__main__':
         sys.exit(e)
     copy_main_content(tmp_markdown_dir)
     init_git_repo(tmp_markdown_dir)
-    init_mike(tmp_markdown_dir)
     create_revision_websites(tmp_markdown_dir)
     collect_result(tmp_markdown_dir, outdir)
 #    shutil.rmtree(tmp_markdown_dir)
-#
-#    TODO fail on non-existing releases
