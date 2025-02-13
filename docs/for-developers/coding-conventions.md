@@ -202,7 +202,7 @@ PatternGenerationEdelkamp::PatternGenerationEdelkamp(const Options &opts)
 ### const attributes
 
 We generally don't make attributes of classes `const`. See the
-![attached discussion](../files/const_discussion.txt)
+![attached discussion](../files/const_discussion.txt){:download}
 for the rationale behind this convention. (This is a convention that may
 be changed if there is sufficient support, but while it is the way it
 is, we should all follow the same style.) Exceptions include:
