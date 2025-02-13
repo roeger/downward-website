@@ -29,10 +29,12 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tilde
   - toc:
       permalink: "#"
       separator: "_"
   - attr_list
+  - del_ins
 plugins:
   - mike:
       version_selector: true
