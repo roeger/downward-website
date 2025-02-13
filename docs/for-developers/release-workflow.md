@@ -63,7 +63,8 @@ apptainer pull fast-downward.sif docker://aibasel/downward:$BRANCH
  1. Bugfix releases only: update the Wiki page of the release (for bugfix release `22.06.1`, reuse the release page `22.06`). See the Wiki page for [[Releases/22.06|release 22.06]] for an example.
     1. Adjust the date and mention the bugfix release version name.
     1. Update the changelog.
-    1. Update the name of the tarball (it should include the bugfix number) and upload the tarball as an attachment to the page. 
+    1. Update the name of the tarball (it should include the bugfix number) and upload the tarball as an attachment to the page.
+    1. Update the bash instructions.
     1. Upload the Vagrant file created by the prepare-release.sh script as an attachment to the page.
  1. Create a new release on github:
     1. On <https://github.com/aibasel/downward/releases> click on `Draft a new release`.
