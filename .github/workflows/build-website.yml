@@ -69,7 +69,7 @@ jobs:
           mkdir website
           ls -l
           unzip site.zip -d website/
-          rm website.zip
+          rm site.zip
           ls website/
           cd ..
           rsync website gh-pages 
