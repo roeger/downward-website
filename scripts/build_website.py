@@ -16,7 +16,7 @@ GIT_USER = "build_website"
 GIT_EMAIL = "no_email@example.com"
 
 def copy_main_content(tmp_markdown):
-    try:
+        try:
         shutil.copytree(REPO_ROOT_DIR/"docs", tmp_markdown/"main-docs")
     except OSError as e:
         sys.exit(e)
@@ -29,8 +29,10 @@ def init_git_repo(tmp_markdown):
     os.chdir(tmp_markdown)
     cmd = ["git", "init"]
     subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
-    cmd = ["git", "config", "user.name", GIT_USER]
-    cmd = ["git", "config", "user.email", GIT_EMAIL]
+
+          git --global user.email "you@example.com"
+    cmd = ["git", "config", "user.name", f"'{GIT_USER}'"]
+    cmd = ["git", "config", "user.email", f"'{GIT_EMAIL}'"]
     subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
 
 def create_revision_website(tmp_markdown, revision, alias=None):
