@@ -71,6 +71,5 @@ jobs:
           unzip site.zip -d website/
           rm site.zip
           ls website/
-          cd ..
           rsync website gh-pages 
           git status
