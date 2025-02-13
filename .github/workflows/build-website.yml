@@ -74,6 +74,5 @@ jobs:
           cd downward-website
           git restore CNAME
           git add -A
-          git status
-          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> -m "update website"
+          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "update website"
           git push
