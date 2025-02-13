@@ -32,6 +32,7 @@ jobs:
       - name: Build the website
         run: |
           cd downward-markup/scripts
+          git fetch --all
           ./build_website.py
 
       - name: Upload website artifact
