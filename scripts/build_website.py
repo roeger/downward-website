@@ -13,6 +13,7 @@ REPO_ROOT_DIR = SCRIPT_DIR.parents[0]
 TMP_MARKDOWN = "tmp_markdown"
 WEBSITE = "site"
 GIT_USER = "build_website"
+GIT_EMAIL = "no_email@example.com"
 
 def copy_main_content(tmp_markdown):
     try:
@@ -29,6 +30,7 @@ def init_git_repo(tmp_markdown):
     cmd = ["git", "init"]
     subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
     cmd = ["git", "config", "user.name", GIT_USER]
+    cmd = ["git", "config", "user.email", GIT_EMAIL]
     subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
 
 def create_revision_website(tmp_markdown, revision, alias=None):
