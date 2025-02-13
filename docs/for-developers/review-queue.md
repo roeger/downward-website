@@ -33,7 +33,7 @@
 -   ~~<http://issues.fast-downward.org/issue668> Integrate dynamic
     MIASM merge strategy (code review, Silvan)~~
 -   ~~<http://issues.fast-downward.org/issue688> replace
-    !GlobalOperator\* by operator ids in successor generator and for
+    GlobalOperator\* by operator ids in successor generator and for
     preferred operators (code review, Florian, Jendrik)~~
 -   ~~<http://issues.fast-downward.org/issue693> new hash function (use
     mini-benchmark to reduce the overhead of new hash function,
@@ -42,7 +42,7 @@
     (code review, Jendrik)~~
 -   ~~<http://issues.fast-downward.org/issue638> bugfix in systematic
     pattern generation (code review, Florian)~~
--   ~~<http://issues.fast-downward.org/issue707> M&S> make pruning of
+-   ~~<http://issues.fast-downward.org/issue707> M&S: make pruning of
     unreachable and irrelevant states configurable (code review,
     Silvan)~~
 -   ~~<http://issues.fast-downward.org/issue693> new hash function
@@ -50,22 +50,22 @@
 -   ~~<http://issues.fast-downward.org/issue705> Reduce memory usage of
     successor generator (code review, Florian)~~
 -   ~~<http://issues.fast-downward.org/issue725> Use OperatorID instead
-    of !GlobalOperator\* more often (code review, Florian)~~
+    of GlobalOperator\* more often (code review, Florian)~~
 -   ~~<http://issues.fast-downward.org/issue726> Change
-    !StateRegistry::get_successor_state from !GlobalOperator to
-    !OperatorProxy (code review, Florian)~~
+    StateRegistry::get_successor_state from GlobalOperator to
+    OperatorProxy (code review, Florian)~~
 -   ~~<http://issues.fast-downward.org/issue198> issues when using
     multiple heuristics (added by Malte, to be discussed with
     Salomé)~~
 -   ~~<http://issues.fast-downward.org/issue718> merge heuristic into
     evaluator (added by Malte, code review for Manuel)~~
--   ~~<http://issues.fast-downward.org/issue717> Lama-Synergy> get rid
+-   ~~<http://issues.fast-downward.org/issue717> Lama-Synergy: get rid
     of the synergy object (added by Malte, code review for Cedric)~~
 -   ~~<http://issues.fast-downward.org/issue694> new hash table
     implementation (code review, Jendrik)~~
 -   ~~<http://issues.fast-downward.org/issue742> Fix a bug in M&S (code
     review, Silvan)~~
--   ~~<http://issues.fast-downward.org/issue700> !RootTask class (code
+-   ~~<http://issues.fast-downward.org/issue700> RootTask class (code
     review, Florian)~~
 -   ~~<http://issues.fast-downward.org/issue668> Integrate dynamic
     MIASM merge strategy (code review, Silvan)~~
@@ -95,7 +95,7 @@
     more consistent parameter names in a few places (code review,
     Jendrik)~~
 -   ~~<http://issues.fast-downward.org/issue791> Use task interface for
-    !StateRegistry (code review, Florian)~~
+    StateRegistry (code review, Florian)~~
 -   ~~<http://issues.fast-downward.org/issue792> Get rid of
     g_successor_generator (code review, Florian)~~
 -   ~~<http://issues.fast-downward.org/issue793> Introduce/collect
@@ -115,8 +115,8 @@
 -   ~~<http://issues.fast-downward.org/issue780> add code from
     saturated cost partitioning papers (think about how to change cost
     functions in projections, Jendrik)~~
--   ~~Discuss changing the interface of !PatternInformation and
-    !PatternCollectionInformation (my current idea is to let these
+-   ~~Discuss changing the interface of PatternInformation and
+    PatternCollectionInformation (my current idea is to let these
     classes own the result of pattern (collection) generators which is
     then passed onto the user of such generators)
     <http://issues.fast-downward.org/issue911> and
