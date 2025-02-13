@@ -1,0 +1,72 @@
+---
+name: Update website
+
+on:
+  push:
+    branches:
+      - main
+      - head-docs
+
+jobs:
+  build-website:
+    name: Generate website
+    timeout-minutes: 60
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          path: downward-markup
+          with:
+            fetch-depth: 0 # fetch all history for all branches
+          ref: main
+      
+      - name: Install python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          python3 -m pip install -r downward-markup/scripts/requirements.txt
+
+      - name: Build the website
+        run: |
+          cd downward-markup/scripts
+          ./build_website.py
+
+      - name: Upload website artifact
+        uses: actions/upload-artifact@v4
+        with:
+        name: website.zip
+        path: downward-markup/scripts/site/site.zip
+
+  deploy-website:
+    name: Deploy website
+    timeout-minutes: 60
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+        with:
+          repository: aibasel/downward-website
+          token: ${{ secrets.AIBASEL_DOWNWARD_WEBSITE_PAT }}
+          path: downward-website
+          ref: gh-pages
+
+      - name: Download website artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: website.zip
+          path: $GITHUB_WORKSPACE/website/website.zip
+
+      - name: Sync the website
+        run: |
+          cd $GITHUB_WORKSPACE/website
+          ls
+          unzip website.zip
+          ls
+          rm website.zip
+          cd ..
+          rsync website gh-pages 
+          git status
