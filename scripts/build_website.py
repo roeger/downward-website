@@ -16,7 +16,7 @@ GIT_USER = "build_website"
 GIT_EMAIL = "no_email@example.com"
 
 def copy_main_content(tmp_markdown):
-        try:
+    try:
         shutil.copytree(REPO_ROOT_DIR/"docs", tmp_markdown/"main-docs")
     except OSError as e:
         sys.exit(e)
