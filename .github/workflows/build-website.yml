@@ -68,7 +68,7 @@ jobs:
       - name: Sync the website
         run: |
           mkdir website
-          ls
+          ls -l
           unzip website.zip -d website/
           rm website.zip
           ls website/
