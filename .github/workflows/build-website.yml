@@ -31,9 +31,14 @@ jobs:
 
       - name: Build the website
         run: |
-          cd downward-markup/scripts
+          # obtain all branches from repository
+          cd downward-markup/
+          for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done
           git fetch --all
           git branch
+
+          # call the build script
+          cd scripts
           ./build_website.py
 
       - name: Upload website artifact
@@ -44,7 +49,7 @@ jobs:
 
   deploy-website:
     name: Deploy website
-    timeout-minutes: 60
+    needs: build-website
     runs-on: ubuntu-24.04
     steps:
       - name: Clone repository
