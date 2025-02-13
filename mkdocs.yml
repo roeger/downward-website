@@ -34,7 +34,6 @@ markdown_extensions:
       permalink: "#"
       separator: "_"
   - attr_list
-  - del_ins
 plugins:
   - mike:
       version_selector: true
