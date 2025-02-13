@@ -72,4 +72,5 @@ jobs:
           rm site.zip
           ls website/
           rsync website gh-pages 
+          cd gh-pages
           git status
