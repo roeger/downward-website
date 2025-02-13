@@ -66,10 +66,12 @@ jobs:
 
       - name: Sync the website
         run: |
-          mkdir website
-          unzip site.zip -d website/
-          rm site.zip
-          rsync website gh-pages
+          rm -rf gh-pages/*
+          unzip -u site.zip -d gh-pages/
           ls gh-pages
           cd gh-pages
+          git restore CNAME
+          git add -A
           git status
+          git commit -m "update website"
+          git push
