@@ -132,7 +132,7 @@ if __name__ == '__main__':
     tmp_markdown_dir = SCRIPT_DIR / TMP_MARKDOWN
     outdir = SCRIPT_DIR / WEBSITE
     try:
-        tmp_dir.mkdir()
+        outdir.mkdir()
         tmp_markdown_dir.mkdir()
     except FileExistsError as e:
         sys.exit(e)
