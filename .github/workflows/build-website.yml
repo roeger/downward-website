@@ -72,7 +72,9 @@ jobs:
           unzip -u site.zip -d downward-website/
           ls -la downward-website
           cd downward-website
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git restore CNAME
           git add -A
-          git commit --author="github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" -m "update website"
+          git commit -m "update website"
           git push
