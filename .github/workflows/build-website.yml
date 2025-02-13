@@ -43,7 +43,7 @@ jobs:
       - name: Upload website artifact
         uses: actions/upload-artifact@v4
         with:
-          name: website.zip
+          name: websitezip
           path: downward-markup/scripts/site/site.zip
 
   deploy-website:
@@ -62,14 +62,13 @@ jobs:
       - name: Download website artifact
         uses: actions/download-artifact@v4
         with:
-          name: website.zip
-          path: website.zip
+          name: websitezip
 
       - name: Sync the website
         run: |
           mkdir website
           ls -l
-          unzip website.zip -d website/
+          unzip site.zip -d website/
           rm website.zip
           ls website/
           cd ..
