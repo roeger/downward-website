@@ -35,7 +35,7 @@ def create_revision_website(tmp_markdown, revision, alias=None):
     logging.info(f"building version {revision}...")
     branch_name = revision
     if revision == "HEAD":
-        branch_name = "tip"
+        branch_name = "head-docs"
     else:
         branch_name = f"release-{revision}"
 
