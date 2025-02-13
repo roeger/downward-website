@@ -67,10 +67,9 @@ jobs:
       - name: Sync the website
         run: |
           mkdir website
-          ls -l
           unzip site.zip -d website/
           rm site.zip
-          ls website/
-          rsync website gh-pages 
+          rsync website gh-pages
+          ls gh-pages
           cd gh-pages
           git status
