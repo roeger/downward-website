@@ -69,7 +69,7 @@ jobs:
         run: |
           mkdir website
           ls
-          unzip website.zip website/
+          unzip website.zip -d website/
           rm website.zip
           ls website/
           cd ..
