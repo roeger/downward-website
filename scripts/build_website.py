@@ -97,6 +97,30 @@ def collect_result(tmp_markdown, outdir):
                    f"--output={outdir}/site.zip", "gh-pages"]
     subprocess.check_call(archive_cmd)
 
+def post_process_result(outdir):
+    # move the img folder from the HEAD version on level higher and
+    # replace the copies of the img folder in all versions with
+    # a symbolic link to that one.
+    releases = set()
+    with open(REPO_ROOT_DIR/'releases.json') as f:
+        releases = set(r["release"] for r in json.load(f))
+    os.chdir(outdir)
+    tmp_dir = outdir/"site"
+    tmp_dir.mkdir()
+    subprocess.check_call(["unzip", "site.zip", "-d", tmp_dir])
+    (outdir/"site.zip").unlink()
+    shutil.move(tmp_dir/"HEAD"/"img", tmp_dir/"img")
+    os.chdir(tmp_dir)
+    for child in (tmp_dir).iterdir():
+        if child.is_dir() and child.name in releases:
+            if (child/"img").exists():
+                shutil.rmtree(child/"img")
+            os.symlink("../img", child/"img")
+    os.chdir(tmp_dir)
+    subprocess.check_call("zip -yr ../site.zip .", shell=True)
+    shutil.rmtree(tmp_dir)
+
+
 if __name__ == '__main__':
     logging.basicConfig(level=logging.INFO)
     logging.info("building website...")
@@ -111,4 +135,5 @@ if __name__ == '__main__':
     init_git_repo(tmp_markdown_dir)
     create_revision_websites(tmp_markdown_dir)
     collect_result(tmp_markdown_dir, outdir)
+    post_process_result(outdir)
 #    shutil.rmtree(tmp_markdown_dir)
