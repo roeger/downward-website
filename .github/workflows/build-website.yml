@@ -69,7 +69,7 @@ jobs:
           cd downward-website
           rm -rf *
           cd ..
-          unzip -u site.zip -d gh-pages/
+          unzip -u site.zip -d downward-website/
           ls -la downward-website
           cd downward-website
           git restore CNAME
