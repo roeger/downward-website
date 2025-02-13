@@ -33,6 +33,7 @@ jobs:
         run: |
           cd downward-markup/scripts
           git fetch --all
+          git branch
           ./build_website.py
 
       - name: Upload website artifact
