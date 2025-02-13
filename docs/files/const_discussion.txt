@@ -1,0 +1,69 @@
+Malte Helmert
+I see, I did not consider the implicit operator=, which is of course a non-const
+method. For what it's worth, I dislike assignment for classes like TaskProxy,
+precisely because we like our objects to be immutable where possible, and
+consequently we should use assignment very sparingly. For example, we never use
+TaskProxy::operator= in the default branch of the master repository (I just
+tested this by setting the method to delete), and I think this is as it should
+be. More generally, I think that a large number of our classes (if I'd guess,
+I'd say about half?) are logically immutable, and for these I think a case could
+be made for deleting operator= to actually make them immutable. There may be a
+few cases where we actually use assignment, but for me it’s a bit of a code
+smell for classes like these because it violates immutability and thus makes
+passing references dangerous. The problem I have with this const is that if we
+use it here, there are literally hundreds of other places in the code where we
+should logically use it, too. I just don’t think this place is any different
+from any of the other related places. Do I remember correctly that there were
+recently more discussions about this (including Silvan?). I think if we use
+const here, then we should use it in all other places where it makes sense, too.
+I may remember wrongly, but I think we considered that at some point and found
+it too cumbersome mainly because of the inconvenience it would cause in
+constructors. That may no longer apply, I’m not sure. I wouldn’t mind
+reconsidering that question, but I think that would require a targeted
+discussion of the topic also including the other developers. Here is the issue I
+have with using const inconsistently: if we consistently don’t use const for
+attributes (except for const pointers or references, where the semantics are
+different), which I think is currently how the large majority of our code works,
+then we don't get a signal about constness just from looking at the data members
+of a class. This isn't great, of course, but at least it means that we know we
+need to understand the class better to decide which of the members change and
+which don’t. I would say that for most classes this is very obvious. In
+comparison, if we use const but use it inconsistently, then we frequently get a
+wrong signal (seeing something is non-`const` although it is actually logically
+const, we would draw a wrong conclusion), and I think that’s much worse than no
+signal, not because it’s “dangerous” but because it increases cognitive load. So
+I think this is something we should do consistently or not at all, and I think
+right now the balance of the code is “not at all”. I can see the argument in
+favour of “do it consistently”, but I think this requires an active decision and
+change of policy. So, in a nutshell, I think an inconsistently used const is
+worse than no const. And more importantly, "no constis currently the prevailing
+convention in the codebase, and it causes a lot of friction if people pull in
+different directions regarding such coding conventions. I had a look at the
+header files in the default branch to see in how many classes we have a
+TaskProxy member, and in how many we have a const TaskProxy member. I found 10
+of the former and only 2 of the latter (both in the cegar code). All of these
+could be const because we never assign to TaskProxy. (The code still compiles
+when deleting assignment.) I see on our coding conventions page in the wiki that
+it mentions that TaskProxy attributes may be const. (Now prizes for guessing who
+added that bit. 😉) I suggest we change that for now, removing the “(const)”
+bit. As I said, I’m open to a change of policy, but that has to be an explicit
+discussion also including the others. I think this is the third time we’re
+having the same discussion (with various configurations of people) in a month,
+so I think it is costing us a lot of effort.
+
+SilvanS
+Yes, I once tried to convince Jendrik that I diddn’t want const bool for some
+class attributes that I was introducing. so I'm a bit surprised to see that we
+(again?) go away from this, because I started trying to add const at many places
+where I would not have added them if I wasn’t told to do so 🙂 Anyway, glad that
+I don’t have to bother with this anymore and just follow my previous intuittion
+that const only makes sense with pointers and references, basically.
+
+Malte Helmert
+I wouldn’t say that const only makes sense with pointers and references. What
+Jendrik wrote about having certainty that these attributes will never change is
+a good argument in favour of const attributes. If this were a new codebase, I
+would certainly give a more rigorous use of const a try, and if someone wants to
+drum up support for a change in coding conventions here, we can discuss it. It's
+just the current convention that says not to use const, not something I’d
+consider a general stylistic recommendation for C++.
