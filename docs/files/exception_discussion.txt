@@ -1,0 +1,95 @@
+Malte Helmert
+I think in C++ it's considered common practice not to try to fit into the
+stdlib's exception hierarchy. I would just derived from std::exception.
+
+Malte Helmert
+Applies to both classes, of course.
+
+Jendrik Seipp
+In total, I think it applies to four classes. I'm happy to let them inherit from
+std::exception, but this would mean adding more boilerplate code, I think. You
+can see the difference by looking at the last commit in this branch
+(https://bitbucket.org/jendrikseipp/downward/commits/f07cfcc51640bf67c7614767f6b0405e21a8beb9),
+which changed the parent class from std::exception to std::runtime_error. A
+quick Google search brought up no examples of people advocating against
+inheriting from std::runtime_error. I only found two sites that say it’s fine:
+https://stackoverflow.com/questions/1569726/difference-stdruntime-error-vs-stdexception,
+https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#e14-use-purpose-designed-user-defined-types-as-exceptions-not-built-in-types
+.
+
+Malte Helmert
+I found the same links (before reading your message), but I don't read them as
+endorsements of deriving from any specific base class. The stackoverflow link
+describes basic C++ features and how the two classes differ in behaviour; it is
+not a style recommendation. It is written for a beginner audience, so it is
+about what the classes do and how they differ in usage and interface, not
+advanced considerations. I am not sure you understood the point that the C++
+core guidelines article wants to make. It basically says: “never do throw 7,
+never do throw runtime_error("foo"); always use your own exception classes.
+Using throw and catch with a standard library type may deserve a warning. Throw
+and catch of a type derived from a standard library exception type is obviously
+OK." I think you misinterpret the latter sentence as an endorsement about which
+classes are the best ones to derive from; it merely means that the
+prohibition/warning against catch(std::exception) or catch(std::runtime_error)
+is not meant to apply to derived classes of our own, so catch(MyError) where
+MyError is derived from one of the standard library classes is OK. From this it
+doesn’t follow that any class works equally well as a base class in any context;
+that is a separate consideration.
+
+The main problems I see with deriving from std::runtime_error here are: it's
+inconsistent with the rest of the codebase, whose existing exceptions derive
+directly from std::exception it implies that we're following the categorization
+of the standard library, in which case I think we need to think very carefully
+for each of our exception types whether they should derive from logic_error, one
+of its subclasses, runtime_error, one of its subclasses, or bad_cast (just
+naming those that are more likely to apply, but I may have missed some).
+
+Basically, the question is whether we want “our” exceptions to be interwoven
+with the ones of the standard library or not. All the larger C++ codebases I’ve
+seen have gone for the latter because the standard library’s exceptions are not
+necessarily designed with the idea of extensibility as a “user hierarchy” where
+everything can find its natural place in mind. The existing exceptions are there
+because the standard library needs to throw them, not because someone sat down
+and designed a general-purpose exception hierarchy.
+
+Most major codebases I've seen have their own "root exception" class that they
+use, sometimes derived from std::exception, sometimes not. (Note that the core
+guidelines do not actually recommend deriving from the std::exception hierarchy.
+Neither do they recommend against it.) I’m not actually sure what the best way
+to proceed here is, but no matter what we do, what I don’t like is different
+parts of the codebase following different conventions.
+
+Jendrik Seipp
+Thanks for elaborating! I have no strong opinions for the design of our
+exceptions, so I’m happy to follow your preference. Let me make a simple
+proposal, which also helps with the std::string vs. cout issue we’re discussing
+in the other thread for this pull request:
+
+    # in utils/exceptions.h
+
+    namespace utils {
+    class Exception : public std::exception {
+    public:
+        virtual void print() = 0;
+    }
+    }
+
+Then all our exception classes could derive from this class. I'm not sure
+whether the class should inherit from std::exception and if yes how it should
+override the what method.
+
+Malte Helmert
+Sounds good to me! The main thing that we should care about here is consistency,
+and this would establish consistency, while also being straightforward. I'm not
+sure if it would be better to derive from std::exception or not, so perhaps as a
+tie-breaker we should consider that we don't know what to do with what() and
+therefore not derive from std::exception.
+
+I’m not sure how the exception we use for the timeout in the hill-climbing code
+fits in, though. It’s an internal implementation detail, and it doesn’t really
+need an error message. Perhaps it would be best for that one to be standalone
+and not derive from anything, with a comment explaining why. It’s not really a
+“normal” exception but somewhere between a regular exception and something used
+for flow control (which is discouraged, but in this case I think it’s
+acceptable, as it’s somewhere in the middle between that and a “usual” use of an
+exception).

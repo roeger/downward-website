@@ -2,9 +2,8 @@
 
 ### State related classes
 
-Some implementation detail on the state related classes is described in
-<attachment:state-classes.pdf> (source file:
-<attachment:state-classes.odg>).
+Some implementation detail on the state related classes is described in [state-classes.pdf](../files/state-classes.pdf){:download} (source file:
+[state-classes.odg](../files/state-classes.odg){:download}).
 
 ### Per State Information
 

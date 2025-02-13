@@ -285,8 +285,7 @@ Derive custom exception classes from `utils::Exception`.
 -   The `print` method should write to `cerr`. See the existing
     examples of `utils::Exception` subclasses.
 -   `utils::Exception` is intentionally not derived from
-    `std::exception`. See [the attached
-    file](https://www.fast-downward.org/ForDevelopers/CodingConventions?action=AttachFile&do=get&target=exception_discussion.txt)
+    `std::exception`. See [the attached file](../files/exception_discussion.txt){:download}
     for some discussion.
 
 ### Miscellaneous
