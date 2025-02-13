@@ -30,8 +30,8 @@ def init_git_repo(tmp_markdown):
     cmd = ["git", "init"]
     subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
 
-          git --global user.email "you@example.com"
     cmd = ["git", "config", "user.name", f"'{GIT_USER}'"]
+    subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
     cmd = ["git", "config", "user.email", f"'{GIT_EMAIL}'"]
     subprocess.check_call(cmd, stdout=subprocess.DEVNULL)
 
