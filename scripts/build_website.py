@@ -139,6 +139,6 @@ if __name__ == '__main__':
     copy_main_content(tmp_markdown_dir)
     init_git_repo(tmp_markdown_dir)
     create_revision_websites(tmp_markdown_dir)
-    collect_result(tmp_markdown_dir, tmp_dir)
+    collect_result(tmp_markdown_dir, outdir)
     post_process_result(outdir)
 #    shutil.rmtree(tmp_markdown_dir)
