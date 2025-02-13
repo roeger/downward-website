@@ -17,8 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           path: downward-markup
-          with:
-            fetch-depth: 0 # fetch all history for all branches
+          fetch-depth: 0 # fetch all history for all branches
           ref: main
       
       - name: Install python
@@ -38,8 +37,8 @@ jobs:
       - name: Upload website artifact
         uses: actions/upload-artifact@v4
         with:
-        name: website.zip
-        path: downward-markup/scripts/site/site.zip
+          name: website.zip
+          path: downward-markup/scripts/site/site.zip
 
   deploy-website:
     name: Deploy website
