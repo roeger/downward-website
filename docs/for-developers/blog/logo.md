@@ -10,19 +10,12 @@ On the way to this logo,
 we had a couple of designs that we wanted to archive here (only storing
 highlights).
 
-```{=mediawiki}
-{{attachment:old_design_4.png||width=400}}
-```
+![](../../img/old_design_4.png)
 
-```{=mediawiki}
-{{attachment:old_design_13.png||width=400}}
-```
-```{=mediawiki}
-{{attachment:old_design_14.png||width=400}}
-```
+![](../../img/old_design_13.png)
+
+![](../../img/old_design_14.png)
 
 And as a bonus, here is the first sketch of the drill on the blackboard:
 
-```{=mediawiki}
-{{attachment:first_sketch.jpg||width=400}}
-```
+![](../../img/first_sketch.jpg)
